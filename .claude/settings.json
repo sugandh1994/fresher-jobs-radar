@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pipeline.run:*)",
+      "Bash(python -m http.server:*)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(pytest:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)"
+    ],
+    "deny": [
+      "Read(./.env)"
+    ]
+  }
+}
