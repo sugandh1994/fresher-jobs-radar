@@ -60,7 +60,9 @@ When duplicates are found, keep the one with the longest description and most re
 
 ## Automation
 - GitHub Actions: `schedule: cron "30 0 * * *"` (06:00 IST) + `workflow_dispatch`.
-- Steps: checkout → setup Python → install → run pipeline → commit `site/jobs.json` + `data/*.json` if changed → deploy `site/` to GitHub Pages.
+- Steps: checkout → setup Python → install → tests → run pipeline → **safety check** → commit `site/jobs.json` + `data/*.json` if changed → deploy `site/` to GitHub Pages.
+- Safety check (`pipeline/guard.py`, added 2026-11-18): don't publish if the new list has < 50 jobs or less than
+  half of yesterday's (e.g. Adzuna down). The run fails, GitHub emails the owner, and the live site keeps yesterday's list.
 - Secrets: `ANTHROPIC_API_KEY`, plus any source API keys.
 
 ## Out of scope (v1)

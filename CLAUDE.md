@@ -29,6 +29,7 @@ pipeline/
   dedupe.py       remove duplicates
   tagger.py       LLM tagging with cache
   run.py          entry point: fetch → normalize → filter → dedupe → tag → write
+  guard.py        publish safety check used by the daily workflow
 site/
   index.html, app.js, styles.css, jobs.json (generated)
   dropdown.js     accessible custom menu for Role/City (WAI-ARIA select-only combobox)
