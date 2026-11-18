@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-11-18T05:35:29+00:00",
+  "started_at": "2026-11-18T08:51:58+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1273,
+      "fetched": 1263,
       "error": null,
-      "after_filter": 490,
-      "after_dedupe": 461
+      "after_filter": 486,
+      "after_dedupe": 455
     },
     "greenhouse": {
-      "fetched": 3578,
+      "fetched": 3574,
       "error": null,
       "boards": {
         "groww": {
@@ -37,12 +37,12 @@
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 789,
+          "fetched": 788,
           "error": null,
           "after_filter": 2
         },
         "mongodb": {
-          "fetched": 394,
+          "fetched": 391,
           "error": null,
           "after_filter": 1
         },
@@ -57,12 +57,12 @@
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 381,
+          "fetched": 383,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 201,
+          "fetched": 199,
           "error": null,
           "after_filter": 0
         },
@@ -86,7 +86,7 @@
       "after_dedupe": 10
     },
     "lever": {
-      "fetched": 324,
+      "fetched": 321,
       "error": null,
       "boards": {
         "meesho": {
@@ -115,7 +115,7 @@
           "after_filter": 2
         },
         "paytm": {
-          "fetched": 198,
+          "fetched": 195,
           "error": null,
           "after_filter": 10
         }
@@ -125,19 +125,19 @@
     }
   },
   "steps": {
-    "fetched": 5175,
-    "normalized": 5175,
-    "after_filter": 513,
-    "after_dedupe": 483,
+    "fetched": 5158,
+    "normalized": 5158,
+    "after_filter": 509,
+    "after_dedupe": 477,
     "tagged": 0,
-    "after_scope": 483,
-    "final": 483
+    "after_scope": 477,
+    "final": 477
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
       "fingerprint": 27,
-      "fuzzy": 3
+      "fuzzy": 5
     },
     "examples": [
       {
@@ -223,11 +223,11 @@
           "url": "https://www.adzuna.in/details/5965874056?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5965403134",
+          "id": "adzuna:5965403132",
           "title": "Business Development Representative (Fresher)",
           "company": "Playto Labs",
           "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5965403134?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5965403132?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -246,6 +246,42 @@
           "company": "EducoHire",
           "location": "Rahata, Ahmednagar, India",
           "url": "https://www.adzuna.in/details/5969314716?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fuzzy",
+        "score": 91.89189189189189,
+        "kept": {
+          "id": "adzuna:5969968592",
+          "title": "Intern (Bachelor's)",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5969968592?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5969968595",
+          "title": "Intern (Bachelor's)- HR",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5969968595?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fuzzy",
+        "score": 91.89189189189189,
+        "kept": {
+          "id": "adzuna:5969968592",
+          "title": "Intern (Bachelor's)",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5969968592?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5968753781",
+          "title": "Intern - Bachelor's SW",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5968753781?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -290,8 +326,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 483,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch9rTYjVP9kGMrMEgMAPC'}",
+    "untagged": 477,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChA7NZErc7SF9sb3AVTuJ'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -304,11 +340,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 483
+    "total": 477
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-18T05:37:36+00:00"
+  "finished_at": "2026-11-18T08:53:15+00:00"
 }
