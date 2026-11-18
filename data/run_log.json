@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-18T08:51:58+00:00",
+  "started_at": "2026-11-18T09:16:00+00:00",
   "sources": {
     "adzuna": {
       "fetched": 1263,
@@ -86,7 +86,7 @@
       "after_dedupe": 10
     },
     "lever": {
-      "fetched": 321,
+      "fetched": 319,
       "error": null,
       "boards": {
         "meesho": {
@@ -95,7 +95,7 @@
           "after_filter": 0
         },
         "cred": {
-          "fetched": 15,
+          "fetched": 13,
           "error": null,
           "after_filter": 0
         },
@@ -125,8 +125,8 @@
     }
   },
   "steps": {
-    "fetched": 5158,
-    "normalized": 5158,
+    "fetched": 5156,
+    "normalized": 5156,
     "after_filter": 509,
     "after_dedupe": 477,
     "tagged": 0,
@@ -327,7 +327,7 @@
     "newly_tagged": 0,
     "fallback": 0,
     "untagged": 477,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChA7NZErc7SF9sb3AVTuJ'}",
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChA9EnUbtrzCopBrJxwR8'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -346,5 +346,5 @@
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-18T08:53:15+00:00"
+  "finished_at": "2026-11-18T09:17:43+00:00"
 }
