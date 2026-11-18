@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-18T09:29:56+00:00",
+  "started_at": "2026-11-18T10:24:45+00:00",
   "sources": {
     "adzuna": {
       "fetched": 1263,
@@ -8,7 +8,7 @@
       "after_dedupe": 455
     },
     "greenhouse": {
-      "fetched": 3572,
+      "fetched": 3577,
       "error": null,
       "boards": {
         "groww": {
@@ -37,12 +37,12 @@
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 787,
+          "fetched": 789,
           "error": null,
           "after_filter": 2
         },
         "mongodb": {
-          "fetched": 391,
+          "fetched": 392,
           "error": null,
           "after_filter": 1
         },
@@ -72,12 +72,12 @@
           "after_filter": 2
         },
         "highradius": {
-          "fetched": 67,
+          "fetched": 68,
           "error": null,
           "after_filter": 0
         },
         "sigmoid": {
-          "fetched": 42,
+          "fetched": 43,
           "error": null,
           "after_filter": 1
         }
@@ -86,7 +86,7 @@
       "after_dedupe": 10
     },
     "lever": {
-      "fetched": 319,
+      "fetched": 318,
       "error": null,
       "boards": {
         "meesho": {
@@ -100,7 +100,7 @@
           "after_filter": 0
         },
         "zeta": {
-          "fetched": 30,
+          "fetched": 29,
           "error": null,
           "after_filter": 0
         },
@@ -125,14 +125,13 @@
     }
   },
   "steps": {
-    "fetched": 5154,
-    "normalized": 5154,
+    "fetched": 5158,
+    "normalized": 5158,
     "after_filter": 509,
     "after_dedupe": 477,
     "tagged": 0,
     "after_scope": 477,
-    "final": 477,
-    "after_refilter": 477
+    "final": 477
   },
   "dedupe": {
     "removed_by_rule": {
@@ -328,7 +327,14 @@
     "newly_tagged": 0,
     "fallback": 0,
     "untagged": 477,
-    "error": null
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChAET9vcdFwwRXDZGuxgY'}",
+    "usage": {
+      "requests": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "cost_usd": 0.0,
+    "cost_inr_approx": 0.0
   },
   "quality": {
     "role_not_other": 0,
@@ -340,6 +346,5 @@
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-18T09:31:53+00:00",
-  "retagged_at": "2026-11-18T10:17:50+00:00"
+  "finished_at": "2026-11-18T10:26:05+00:00"
 }
