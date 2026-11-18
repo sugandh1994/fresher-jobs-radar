@@ -1,0 +1,609 @@
+{
+ "_about": "Companies whose real logo we show. A job gets a logo only if its company name matches one of the 'names' exactly (after removing case, punctuation and suffixes like Pvt/Ltd/Inc). Logos are downloaded once by `python -m pipeline.logos --download` into site/assets/logos/ — visitors never contact a logo service. Add a company here only when the name clearly means that one company.",
+ "companies": [
+  {
+   "domain": "stripe.com",
+   "names": [
+    "Stripe"
+   ]
+  },
+  {
+   "domain": "paytm.com",
+   "names": [
+    "Paytm"
+   ]
+  },
+  {
+   "domain": "groww.in",
+   "names": [
+    "Groww"
+   ]
+  },
+  {
+   "domain": "druva.com",
+   "names": [
+    "Druva"
+   ]
+  },
+  {
+   "domain": "inmobi.com",
+   "names": [
+    "InMobi"
+   ]
+  },
+  {
+   "domain": "rubrik.com",
+   "names": [
+    "Rubrik"
+   ]
+  },
+  {
+   "domain": "databricks.com",
+   "names": [
+    "Databricks"
+   ]
+  },
+  {
+   "domain": "mongodb.com",
+   "names": [
+    "MongoDB"
+   ]
+  },
+  {
+   "domain": "okta.com",
+   "names": [
+    "Okta"
+   ]
+  },
+  {
+   "domain": "twilio.com",
+   "names": [
+    "Twilio"
+   ]
+  },
+  {
+   "domain": "elastic.co",
+   "names": [
+    "Elastic"
+   ]
+  },
+  {
+   "domain": "airbnb.com",
+   "names": [
+    "Airbnb"
+   ]
+  },
+  {
+   "domain": "hackerrank.com",
+   "names": [
+    "HackerRank"
+   ]
+  },
+  {
+   "domain": "highradius.com",
+   "names": [
+    "HighRadius"
+   ]
+  },
+  {
+   "domain": "sigmoid.com",
+   "names": [
+    "Sigmoid"
+   ]
+  },
+  {
+   "domain": "meesho.com",
+   "names": [
+    "Meesho"
+   ]
+  },
+  {
+   "domain": "cred.club",
+   "names": [
+    "CRED"
+   ]
+  },
+  {
+   "domain": "zeta.tech",
+   "names": [
+    "Zeta"
+   ]
+  },
+  {
+   "domain": "mindtickle.com",
+   "names": [
+    "Mindtickle"
+   ]
+  },
+  {
+   "domain": "fampay.in",
+   "names": [
+    "FamPay"
+   ]
+  },
+  {
+   "domain": "google.com",
+   "names": [
+    "Google"
+   ]
+  },
+  {
+   "domain": "citigroup.com",
+   "names": [
+    "Citigroup",
+    "Citibank",
+    "Citi"
+   ]
+  },
+  {
+   "domain": "hsbc.com",
+   "names": [
+    "HSBC"
+   ]
+  },
+  {
+   "domain": "accenture.com",
+   "names": [
+    "Accenture"
+   ]
+  },
+  {
+   "domain": "deloitte.com",
+   "names": [
+    "Deloitte"
+   ]
+  },
+  {
+   "domain": "honeywell.com",
+   "names": [
+    "Honeywell",
+    "Honeywell Technologies"
+   ]
+  },
+  {
+   "domain": "accor.com",
+   "names": [
+    "Accor",
+    "AccorHotel",
+    "AccorHotels"
+   ]
+  },
+  {
+   "domain": "michelin.com",
+   "names": [
+    "Michelin"
+   ]
+  },
+  {
+   "domain": "magna.com",
+   "names": [
+    "Magna International",
+    "Magna"
+   ]
+  },
+  {
+   "domain": "mondelezinternational.com",
+   "names": [
+    "Mondelez International",
+    "Mondelēz International"
+   ]
+  },
+  {
+   "domain": "elsevier.com",
+   "names": [
+    "Elsevier"
+   ]
+  },
+  {
+   "domain": "burnsmcd.com",
+   "names": [
+    "Burns & McDonnell"
+   ]
+  },
+  {
+   "domain": "fourkites.com",
+   "names": [
+    "FourKites"
+   ]
+  },
+  {
+   "domain": "qad.com",
+   "names": [
+    "QAD"
+   ]
+  },
+  {
+   "domain": "piramalpharma.com",
+   "names": [
+    "Piramal Pharma"
+   ]
+  },
+  {
+   "domain": "dalmiabharat.com",
+   "names": [
+    "Dalmia Bharat Group",
+    "Dalmia Bharat"
+   ]
+  },
+  {
+   "domain": "apna.co",
+   "names": [
+    "Apna"
+   ]
+  },
+  {
+   "domain": "cloudthat.com",
+   "names": [
+    "CloudThat"
+   ]
+  },
+  {
+   "domain": "americanexpress.com",
+   "names": [
+    "American Express"
+   ]
+  },
+  {
+   "domain": "averydennison.com",
+   "names": [
+    "Avery Dennison"
+   ]
+  },
+  {
+   "domain": "baxter.com",
+   "names": [
+    "Baxter"
+   ]
+  },
+  {
+   "domain": "bitgo.com",
+   "names": [
+    "BitGo"
+   ]
+  },
+  {
+   "domain": "bookmyshow.com",
+   "names": [
+    "BookMyShow"
+   ]
+  },
+  {
+   "domain": "brillio.com",
+   "names": [
+    "Brillio"
+   ]
+  },
+  {
+   "domain": "bruker.com",
+   "names": [
+    "Bruker"
+   ]
+  },
+  {
+   "domain": "carrier.com",
+   "names": [
+    "Carrier"
+   ]
+  },
+  {
+   "domain": "cmegroup.com",
+   "names": [
+    "Chicago Mercantile Exchange",
+    "CME Group"
+   ]
+  },
+  {
+   "domain": "colgatepalmolive.com",
+   "names": [
+    "Colgate-Palmolive"
+   ]
+  },
+  {
+   "domain": "conduent.com",
+   "names": [
+    "Conduent",
+    "Conduent Business Services India"
+   ]
+  },
+  {
+   "domain": "crowe.com",
+   "names": [
+    "Crowe"
+   ]
+  },
+  {
+   "domain": "ca-cib.com",
+   "names": [
+    "Crédit Agricole CIB"
+   ]
+  },
+  {
+   "domain": "dneg.com",
+   "names": [
+    "DNEG"
+   ]
+  },
+  {
+   "domain": "db.com",
+   "names": [
+    "Deutsche Bank"
+   ]
+  },
+  {
+   "domain": "eaton.com",
+   "names": [
+    "Eaton"
+   ]
+  },
+  {
+   "domain": "exlservice.com",
+   "names": [
+    "EXL",
+    "EXL Service"
+   ]
+  },
+  {
+   "domain": "freseniusmedicalcare.com",
+   "names": [
+    "Fresenius Medical Care"
+   ]
+  },
+  {
+   "domain": "fronius.com",
+   "names": [
+    "Fronius"
+   ]
+  },
+  {
+   "domain": "fynd.com",
+   "names": [
+    "Fynd"
+   ]
+  },
+  {
+   "domain": "gehealthcare.com",
+   "names": [
+    "GE HealthCare"
+   ]
+  },
+  {
+   "domain": "genpact.com",
+   "names": [
+    "Genpact"
+   ]
+  },
+  {
+   "domain": "globallogic.com",
+   "names": [
+    "GlobalLogic"
+   ]
+  },
+  {
+   "domain": "iconplc.com",
+   "names": [
+    "ICON Clinical Research",
+    "ICON plc"
+   ]
+  },
+  {
+   "domain": "indegene.com",
+   "names": [
+    "Indegene"
+   ]
+  },
+  {
+   "domain": "innovaccer.com",
+   "names": [
+    "Innovaccer",
+    "Innovaccer Analytics"
+   ]
+  },
+  {
+   "domain": "irco.com",
+   "names": [
+    "Ingersoll Rand"
+   ]
+  },
+  {
+   "domain": "kone.com",
+   "names": [
+    "KONE"
+   ]
+  },
+  {
+   "domain": "kotak.com",
+   "names": [
+    "Kotak Mahindra Bank"
+   ]
+  },
+  {
+   "domain": "lseg.com",
+   "names": [
+    "London Stock Exchange Group",
+    "LSEG"
+   ]
+  },
+  {
+   "domain": "medtronic.com",
+   "names": [
+    "Medtronic"
+   ]
+  },
+  {
+   "domain": "mufg.jp",
+   "names": [
+    "Mitsubishi UFJ Financial Group",
+    "MUFG"
+   ]
+  },
+  {
+   "domain": "philips.com",
+   "names": [
+    "Philips"
+   ]
+  },
+  {
+   "domain": "prattwhitney.com",
+   "names": [
+    "Pratt & Whitney"
+   ]
+  },
+  {
+   "domain": "rtx.com",
+   "names": [
+    "RTX"
+   ]
+  },
+  {
+   "domain": "rgare.com",
+   "names": [
+    "Reinsurance Group of America"
+   ]
+  },
+  {
+   "domain": "shell.com",
+   "names": [
+    "Shell"
+   ]
+  },
+  {
+   "domain": "silabs.com",
+   "names": [
+    "Silicon Labs"
+   ]
+  },
+  {
+   "domain": "smith-nephew.com",
+   "names": [
+    "Smith & Nephew"
+   ]
+  },
+  {
+   "domain": "tatacommunications.com",
+   "names": [
+    "Tata Communications"
+   ]
+  },
+  {
+   "domain": "te.com",
+   "names": [
+    "TE Connectivity"
+   ]
+  },
+  {
+   "domain": "teradata.com",
+   "names": [
+    "Teradata"
+   ]
+  },
+  {
+   "domain": "valeo.com",
+   "names": [
+    "Valeo"
+   ]
+  },
+  {
+   "domain": "vertiv.com",
+   "names": [
+    "Vertiv",
+    "Vertiv Group"
+   ]
+  },
+  {
+   "domain": "wabtec.com",
+   "names": [
+    "Wabtec"
+   ]
+  },
+  {
+   "domain": "yesbank.in",
+   "names": [
+    "YES BANK"
+   ]
+  },
+  {
+   "domain": "zensar.com",
+   "names": [
+    "Zensar Technologies"
+   ]
+  },
+  {
+   "domain": "nvent.com",
+   "names": [
+    "nVent"
+   ]
+  },
+  {
+   "domain": "pentair.com",
+   "names": [
+    "Pentair"
+   ]
+  },
+  {
+   "domain": "westpharma.com",
+   "names": [
+    "West Pharmaceutical Services"
+   ]
+  },
+  {
+   "domain": "atkinsrealis.com",
+   "names": [
+    "AtkinsRéalis"
+   ]
+  },
+  {
+   "domain": "erm.com",
+   "names": [
+    "ERM"
+   ]
+  },
+  {
+   "domain": "fnz.com",
+   "names": [
+    "FNZ"
+   ]
+  },
+  {
+   "domain": "adda247.com",
+   "names": [
+    "Adda247"
+   ]
+  },
+  {
+   "domain": "inc42.com",
+   "names": [
+    "Inc42"
+   ]
+  },
+  {
+   "domain": "boeing.com",
+   "names": [
+    "Boeing"
+   ]
+  },
+  {
+   "domain": "salesforce.com",
+   "names": [
+    "Salesforce"
+   ]
+  },
+  {
+   "domain": "cisco.com",
+   "names": [
+    "Cisco"
+   ]
+  },
+  {
+   "domain": "caterpillar.com",
+   "names": [
+    "Caterpillar"
+   ]
+  },
+  {
+   "domain": "aecom.com",
+   "names": [
+    "AECOM"
+   ]
+  }
+ ]
+}

@@ -40,6 +40,25 @@ def test_quality_is_measured_before_hiding(tmp_path, monkeypatch):
     assert log["quality"]["role_not_other"] == 1 and log["quality"]["total_tagged"] == 2
 
 
+CITIES = ["Mumbai", "Pune", "Bengaluru", "Delhi NCR", "Remote", "Other India"]
+
+
+def test_location_city_from_text():
+    assert run.location_city("Bangalore, Karnataka, India", CITIES) == "Bengaluru"
+    assert run.location_city("Gurgaon, Haryana", CITIES) == "Delhi NCR"
+    assert run.location_city("Remote - India", CITIES) == "Remote"
+    assert run.location_city("Kanpur, Uttar Pradesh, India", CITIES) == "Other India"
+    assert run.location_city("India", CITIES) is None
+    assert run.location_city("", CITIES) is None
+
+
+def test_jobs_json_includes_city_from_location(tmp_path, monkeypatch):
+    j = job("a", "Data Analytics")
+    j.location_raw = "Navi Mumbai, Maharashtra"
+    out, _ = run_tag_and_write(tmp_path, monkeypatch, [j])
+    assert out["jobs"][0]["city_from_location"] == "Mumbai"
+
+
 def test_page_dropdown_has_no_other_role(tmp_path, monkeypatch):
     out, _ = run_tag_and_write(tmp_path, monkeypatch, [job("a", "Data Analytics")])
     assert "Other" not in out["taxonomy"]["roles"]

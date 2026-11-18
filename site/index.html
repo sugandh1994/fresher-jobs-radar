@@ -5,85 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fresher Jobs Radar</title>
   <meta name="description" content="Fresher jobs and internships in India, collected from public job sources and refreshed every morning.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%230b6e5f' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%230b6e5f' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%230b6e5f'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%232f3e9e' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%232f3e9e' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23e9a21b'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
-  <a class="skip-link" href="#results">Skip to results</a>
+  <a class="skip-link" href="#results">Skip to jobs</a>
 
-  <header class="site-header">
-    <div class="wrap">
-      <p class="eyebrow">India · 0–1 years · Internships</p>
-      <h1>Fresher Jobs Radar</h1>
-      <p class="lede">Fresher jobs and internships in India, collected from public job sources every morning. Every post links to the original listing.</p>
-      <p class="meta" id="meta" aria-live="polite">Loading jobs…</p>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="./">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <circle cx="16" cy="16" r="14" /><circle cx="16" cy="16" r="7" /><circle class="brand-dot" cx="16" cy="16" r="3" />
+        </svg>
+        <span>Fresher Jobs Radar</span>
+      </a>
+      <p class="freshness" id="meta" aria-live="polite">Loading jobs…</p>
     </div>
   </header>
 
-  <form class="filters" id="filters" role="search" aria-label="Filter jobs">
-    <div class="wrap filters-inner">
-      <div class="field field-search">
-        <label for="q">Search</label>
-        <input id="q" name="q" type="search" placeholder="Title, company or keyword" autocomplete="off">
+  <form id="filters" role="search" aria-label="Find jobs">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- Looping background video (decorative). Plays only if the visitor hasn't asked for
+           reduced motion or data saving; otherwise the still poster frame is shown. -->
+      <div class="hero-media" aria-hidden="true">
+        <video class="hero-video" id="hero-video" muted loop playsinline preload="none" poster="assets/hero-poster.jpg" disablepictureinpicture>
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
       </div>
-      <div class="field">
-        <label for="role">Role</label>
-        <select id="role" name="role"><option value="">All roles</option></select>
+      <button type="button" class="hero-pause" id="hero-pause" aria-pressed="true" aria-label="Play background animation" hidden>
+        <svg class="icon icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14"/></svg>
+        <svg class="icon icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>
+      </button>
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">Good morning</h1>
+          <p class="hero-lede" id="hero-lede">Here are today's fresher jobs and internships across India.</p>
+
+          <div class="search">
+            <label for="q" class="visually-hidden">Search jobs</label>
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <input id="q" name="q" type="search" placeholder="Search jobs, companies or skills" autocomplete="off">
+          </div>
+
+        </div>
       </div>
-      <div class="field">
-        <label for="city">City</label>
-        <select id="city" name="city"><option value="">All cities</option></select>
-      </div>
-      <div class="field field-toggle">
-        <input id="intern" name="intern" type="checkbox" role="switch">
-        <label for="intern">Internships only</label>
-      </div>
-      <button type="reset" class="btn-clear" id="clear">Clear filters</button>
+    </section>
+
+    <div class="shell layout">
+      <aside class="sidebar" id="sidebar" aria-label="Job categories">
+        <fieldset class="facet" id="role-facet">
+          <legend>Job category</legend>
+          <p class="facet-note" id="facet-note" hidden>Jobs are sorted into categories automatically each morning. Counts appear once that has run.</p>
+          <ul class="facet-list" id="role-list"></ul>
+        </fieldset>
+        <div class="sheet-actions">
+          <button type="button" class="btn-primary" id="sheet-done">Show jobs</button>
+        </div>
+      </aside>
+      <div class="sheet-backdrop" id="sheet-backdrop"></div>
+
+      <main id="results" tabindex="-1">
+        <div class="results-head">
+          <h2 class="results-title" id="results-title" tabindex="-1">All jobs</h2>
+          <p class="count" id="count" aria-live="polite"></p>
+          <button type="button" class="link-clear results-reset" id="category-reset" hidden>Show all categories</button>
+          <button type="button" class="saved-toggle" id="saved-toggle" aria-pressed="false">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            Saved <span class="saved-n" id="saved-n">0</span>
+          </button>
+        </div>
+
+        <div class="toolbar">
+          <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="sidebar">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+            Categories<span class="filters-count" id="filters-count"></span>
+          </button>
+          <div class="field-city">
+            <label for="city" class="visually-hidden">City</label>
+            <select id="city" name="city"><option value="">All cities</option></select>
+          </div>
+          <label class="switch">
+            <input id="intern" name="intern" type="checkbox" role="switch">
+            <span>Internships only</span>
+          </label>
+        </div>
+
+        <div class="active-filters" id="active-filters" hidden></div>
+
+        <div id="jobs"></div>
+
+        <div class="empty" id="empty" hidden>
+          <h2 id="empty-title">No jobs match these filters</h2>
+          <p id="empty-text">Remove a filter or try a shorter search.</p>
+          <button type="button" class="btn-secondary" id="empty-clear">Clear all filters</button>
+        </div>
+
+        <button type="button" class="btn-secondary btn-more" id="more" hidden>Show more jobs</button>
+      </main>
     </div>
   </form>
 
-  <main id="results" class="wrap" tabindex="-1">
-    <p class="count" id="count" aria-live="polite"></p>
-    <ol class="jobs" id="jobs"></ol>
-    <div class="empty" id="empty" hidden>
-      <h2>No jobs match these filters</h2>
-      <p>Try a shorter search, another city, or <button type="button" class="link-btn" id="empty-clear">clear all filters</button>.</p>
-    </div>
-    <button type="button" class="btn-more" id="more" hidden>Show more jobs</button>
-  </main>
-
   <footer class="site-footer">
-    <div class="wrap">
+    <div class="shell">
       <h2>Where these jobs come from</h2>
       <ul class="sources">
-        <li><a href="https://www.adzuna.in" target="_blank" rel="noopener">Adzuna India</a> — job search API</li>
-        <li><a href="https://www.greenhouse.com" target="_blank" rel="noopener">Greenhouse</a> — public career pages of companies hiring in India</li>
-        <li><a href="https://www.lever.co" target="_blank" rel="noopener">Lever</a> — public career pages of companies hiring in India</li>
+        <li><a href="https://www.adzuna.in" target="_blank" rel="noopener">Adzuna India</a>, through its public job search API</li>
+        <li><a href="https://www.greenhouse.com" target="_blank" rel="noopener">Greenhouse</a> and <a href="https://www.lever.co" target="_blank" rel="noopener">Lever</a>, the public career pages of companies hiring in India</li>
       </ul>
-      <p>Every post links to the original site, and you apply there. This is a free, non-commercial project: no ads, no sign-up, no paid features. Role and city labels are added automatically and can occasionally be wrong — check the original post.</p>
+      <p>Every job links to the original post, and you apply there. This is a free, non-commercial project with no ads or sign-up. Saved and applied jobs are remembered only in this browser. Role and city labels are added automatically and can occasionally be wrong, so check the original post.</p>
     </div>
   </footer>
 
-  <template id="job-tpl">
-    <li class="job">
-      <article>
-        <div class="job-head">
-          <h2 class="job-title"></h2>
-          <p class="job-company"></p>
-        </div>
-        <ul class="chips"></ul>
-        <p class="job-snippet"></p>
-        <div class="job-foot">
-          <p class="job-when"></p>
-          <div class="job-actions">
-            <a class="apply" target="_blank" rel="noopener">Apply<span class="visually-hidden"></span> <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-      </article>
-    </li>
-  </template>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="dropdown.js?v=5" defer></script>
-  <script src="app.js?v=5" defer></script>
+  <script src="dropdown.js?v=24" defer></script>
+  <script src="app.js?v=28" defer></script>
 </body>
 </html>

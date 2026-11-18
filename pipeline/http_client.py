@@ -24,6 +24,23 @@ class SourceError(Exception):
     """A source failed. The message is safe to log (no secrets)."""
 
 
+def get_bytes(url: str, params: dict | None = None) -> bytes:
+    """Polite GET for files (images). Same rules as get_json."""
+    host = urlparse(url).netloc
+    wait = MIN_DELAY_SECONDS - (time.monotonic() - _last_request_at.get(host, 0.0))
+    if wait > 0:
+        time.sleep(wait)
+    try:
+        resp = _session.get(url, params=params, timeout=TIMEOUT_SECONDS, headers={"Accept": "image/*"})
+    except requests.RequestException as exc:
+        raise SourceError(f"network error talking to {host}: {type(exc).__name__}") from None
+    finally:
+        _last_request_at[host] = time.monotonic()
+    if resp.status_code != 200:
+        raise SourceError(f"{host} returned HTTP {resp.status_code}")
+    return resp.content
+
+
 def get_json(url: str, params: dict | None = None) -> dict:
     host = urlparse(url).netloc
     wait = MIN_DELAY_SECONDS - (time.monotonic() - _last_request_at.get(host, 0.0))

@@ -56,7 +56,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969752431",
@@ -72,7 +74,9 @@
    "experience_hint": "0–3 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969752403",
@@ -88,7 +92,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969752401",
@@ -104,7 +110,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969752448",
@@ -120,7 +128,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969752378",
@@ -136,7 +146,9 @@
    "experience_hint": "3-10 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969752329",
@@ -152,7 +164,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969752472",
@@ -168,7 +182,9 @@
    "experience_hint": "0–2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5969745681",
@@ -184,7 +200,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5969745682",
@@ -200,7 +218,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5969744482",
@@ -216,7 +236,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969730876",
@@ -232,7 +254,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5969730875",
@@ -248,7 +272,9 @@
    "experience_hint": "0 - 4 yrs",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5969315083",
@@ -264,7 +290,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969315098",
@@ -280,7 +308,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969315068",
@@ -296,7 +326,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969315037",
@@ -312,7 +344,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969315040",
@@ -328,7 +362,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5969315003",
@@ -344,7 +380,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969314842",
@@ -360,7 +398,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969311868",
@@ -376,7 +416,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969311852",
@@ -392,7 +434,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969311856",
@@ -408,7 +452,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969307684",
@@ -424,7 +470,9 @@
    "experience_hint": "2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969970135",
@@ -440,7 +488,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969969537",
@@ -456,7 +506,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": "assets/logos/rtx.com.png"
   },
   {
    "id": "adzuna:5969969299",
@@ -472,7 +524,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/mondelezinternational.com.png"
   },
   {
    "id": "adzuna:5969969303",
@@ -488,7 +542,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/mondelezinternational.com.png"
   },
   {
    "id": "adzuna:5969969097",
@@ -504,7 +560,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5969968592",
@@ -520,7 +578,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/honeywell.com.png"
   },
   {
    "id": "adzuna:5969968600",
@@ -536,7 +596,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": "assets/logos/honeywell.com.png"
   },
   {
    "id": "adzuna:5969968580",
@@ -552,7 +614,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/honeywell.com.png"
   },
   {
    "id": "adzuna:5969968471",
@@ -568,7 +632,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/google.com.png"
   },
   {
    "id": "adzuna:5969752493",
@@ -584,7 +650,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969752276",
@@ -600,7 +668,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969745680",
@@ -616,7 +686,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5969744478",
@@ -632,7 +704,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969569132",
@@ -648,7 +722,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969569137",
@@ -664,7 +740,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5969564097",
@@ -680,7 +758,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969315125",
@@ -696,7 +776,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969315008",
@@ -712,7 +794,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969314821",
@@ -728,7 +812,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969969682",
@@ -744,7 +830,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/burnsmcd.com.png"
   },
   {
    "id": "adzuna:5969969415",
@@ -760,7 +848,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969752287",
@@ -776,7 +866,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969752274",
@@ -792,7 +884,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969969895",
@@ -808,7 +902,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5969969843",
@@ -824,7 +920,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chandigarh",
+   "logo": null
   },
   {
    "id": "adzuna:5969969883",
@@ -840,7 +938,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969969896",
@@ -856,7 +956,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969969374",
@@ -872,7 +974,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969564109",
@@ -888,7 +992,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/elsevier.com.png"
   },
   {
    "id": "adzuna:5969970278",
@@ -904,7 +1010,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969968392",
@@ -920,7 +1028,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5969967984",
@@ -936,7 +1046,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kochi",
+   "logo": null
   },
   {
    "id": "adzuna:5969568962",
@@ -952,7 +1064,9 @@
    "experience_hint": "2–4 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/indegene.com.png"
   },
   {
    "id": "adzuna:5969445543",
@@ -968,7 +1082,9 @@
    "experience_hint": "3–4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5969315016",
@@ -984,7 +1100,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969246346",
@@ -1000,7 +1118,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969230957",
@@ -1016,7 +1136,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5969223804",
@@ -1032,7 +1154,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/prattwhitney.com.png"
   },
   {
    "id": "adzuna:5969223290",
@@ -1048,7 +1172,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5969016725",
@@ -1064,7 +1190,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969016695",
@@ -1080,7 +1208,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5968976159",
@@ -1096,7 +1226,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968924607",
@@ -1112,7 +1244,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968924568",
@@ -1128,7 +1262,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968896858",
@@ -1144,7 +1280,9 @@
    "experience_hint": "1–5 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5968727812",
@@ -1160,7 +1298,9 @@
    "experience_hint": "1–3 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5968598342",
@@ -1176,7 +1316,9 @@
    "experience_hint": "1–3 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968597876",
@@ -1192,7 +1334,9 @@
    "experience_hint": "0–2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5968536041",
@@ -1208,7 +1352,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5968536015",
@@ -1224,7 +1370,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5968520973",
@@ -1240,7 +1388,9 @@
    "experience_hint": "1 Yr",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5968520970",
@@ -1256,7 +1406,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5968520974",
@@ -1272,7 +1424,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5968520972",
@@ -1288,7 +1442,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5968301949",
@@ -1304,7 +1460,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5968301939",
@@ -1320,7 +1478,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968053934",
@@ -1336,7 +1496,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5968053917",
@@ -1352,7 +1514,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968049119",
@@ -1368,7 +1532,9 @@
    "experience_hint": "1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5968049130",
@@ -1384,7 +1550,9 @@
    "experience_hint": "5 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968049129",
@@ -1400,7 +1568,9 @@
    "experience_hint": "5 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969247677",
@@ -1416,7 +1586,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/fourkites.com.png"
   },
   {
    "id": "adzuna:5969247319",
@@ -1432,7 +1604,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969247191",
@@ -1448,7 +1622,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969247104",
@@ -1464,7 +1640,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969245904",
@@ -1480,7 +1658,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/philips.com.png"
   },
   {
    "id": "adzuna:5969245314",
@@ -1496,7 +1676,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/fourkites.com.png"
   },
   {
    "id": "adzuna:5969244793",
@@ -1512,7 +1694,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969244187",
@@ -1528,7 +1712,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5969243619",
@@ -1544,7 +1730,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5969241473",
@@ -1560,7 +1748,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969241027",
@@ -1576,7 +1766,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/lseg.com.png"
   },
   {
    "id": "adzuna:5969239168",
@@ -1592,7 +1784,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5969238805",
@@ -1608,7 +1802,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969238405",
@@ -1624,7 +1820,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": "assets/logos/crowe.com.png"
   },
   {
    "id": "adzuna:5969237784",
@@ -1640,7 +1838,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969236991",
@@ -1656,7 +1856,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969236042",
@@ -1672,7 +1874,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/db.com.png"
   },
   {
    "id": "adzuna:5969231282",
@@ -1688,7 +1892,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/honeywell.com.png"
   },
   {
    "id": "adzuna:5969230075",
@@ -1704,7 +1910,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969228239",
@@ -1720,7 +1928,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969227498",
@@ -1736,7 +1946,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969227431",
@@ -1752,7 +1964,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/shell.com.png"
   },
   {
    "id": "adzuna:5969226918",
@@ -1768,7 +1982,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/honeywell.com.png"
   },
   {
    "id": "adzuna:5969226617",
@@ -1784,7 +2000,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/mondelezinternational.com.png"
   },
   {
    "id": "adzuna:5969226127",
@@ -1800,7 +2018,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/mondelezinternational.com.png"
   },
   {
    "id": "adzuna:5969224109",
@@ -1816,7 +2036,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969222986",
@@ -1832,7 +2054,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969222825",
@@ -1848,7 +2072,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": "assets/logos/medtronic.com.png"
   },
   {
    "id": "adzuna:5969016988",
@@ -1864,7 +2090,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969016712",
@@ -1880,7 +2108,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969016691",
@@ -1896,7 +2126,9 @@
    "experience_hint": "1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5968991314",
@@ -1912,7 +2144,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/bitgo.com.png"
   },
   {
    "id": "adzuna:5968979454",
@@ -1928,7 +2162,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5968976185",
@@ -1944,7 +2180,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968765754",
@@ -1960,7 +2198,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": "assets/logos/qad.com.png"
   },
   {
    "id": "adzuna:5968765737",
@@ -1976,7 +2216,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/qad.com.png"
   },
   {
    "id": "adzuna:5968732314",
@@ -1992,7 +2234,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/bruker.com.png"
   },
   {
    "id": "adzuna:5968536042",
@@ -2008,7 +2252,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5968301908",
@@ -2024,7 +2270,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5968068627",
@@ -2040,7 +2288,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/averydennison.com.png"
   },
   {
    "id": "adzuna:5969239381",
@@ -2056,7 +2306,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969229675",
@@ -2072,7 +2324,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5968539236",
@@ -2088,7 +2342,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5968301742",
@@ -2104,7 +2360,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5969246441",
@@ -2120,7 +2378,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/fnz.com.png"
   },
   {
    "id": "adzuna:5969245800",
@@ -2136,7 +2396,9 @@
    "experience_hint": "0 to 1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/accenture.com.png"
   },
   {
    "id": "adzuna:5969243988",
@@ -2152,7 +2414,9 @@
    "experience_hint": "0 to 1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/accenture.com.png"
   },
   {
    "id": "adzuna:5969234568",
@@ -2168,7 +2432,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5969245975",
@@ -2184,7 +2450,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/elsevier.com.png"
   },
   {
    "id": "adzuna:5969238390",
@@ -2200,7 +2468,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5969235244",
@@ -2216,7 +2486,9 @@
    "experience_hint": "4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chandigarh",
+   "logo": null
   },
   {
    "id": "adzuna:5969229377",
@@ -2232,7 +2504,9 @@
    "experience_hint": "4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969225364",
@@ -2248,7 +2522,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5968598319",
@@ -2264,7 +2540,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5969247936",
@@ -2280,7 +2558,9 @@
    "experience_hint": "2–5 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5969245073",
@@ -2296,7 +2576,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5967987046",
@@ -2312,7 +2594,9 @@
    "experience_hint": "0-3 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967985913",
@@ -2328,7 +2612,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967980072",
@@ -2344,7 +2630,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967980030",
@@ -2360,7 +2648,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5967974160",
@@ -2376,7 +2666,9 @@
    "experience_hint": "0–6 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967968672",
@@ -2392,7 +2684,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5967957763",
@@ -2408,7 +2702,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967797908",
@@ -2424,7 +2720,9 @@
    "experience_hint": "0–2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5967779844",
@@ -2440,7 +2738,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kochi",
+   "logo": null
   },
   {
    "id": "adzuna:5967779828",
@@ -2456,7 +2756,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967759401",
@@ -2472,7 +2774,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5967714835",
@@ -2488,7 +2792,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/apna.co.png"
   },
   {
    "id": "adzuna:5967713313",
@@ -2504,7 +2810,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967668638",
@@ -2520,7 +2828,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967490879",
@@ -2536,7 +2846,9 @@
    "experience_hint": "5 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967344071",
@@ -2552,7 +2864,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967344068",
@@ -2568,7 +2882,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967330878",
@@ -2584,7 +2900,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5967330876",
@@ -2600,7 +2918,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5967330873",
@@ -2616,7 +2936,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5967989698",
@@ -2632,7 +2954,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967987932",
@@ -2648,7 +2972,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967987075",
@@ -2664,7 +2990,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967986987",
@@ -2680,7 +3008,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967986951",
@@ -2696,7 +3026,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967986927",
@@ -2712,7 +3044,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967985886",
@@ -2728,7 +3062,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967985712",
@@ -2744,7 +3080,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967984885",
@@ -2760,7 +3098,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967983505",
@@ -2776,7 +3116,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5967981856",
@@ -2792,7 +3134,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967981481",
@@ -2808,7 +3152,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967972374",
@@ -2824,7 +3170,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967971375",
@@ -2840,7 +3188,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967971078",
@@ -2856,7 +3206,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967969924",
@@ -2872,7 +3224,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967969603",
@@ -2888,7 +3242,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5967969533",
@@ -2904,7 +3260,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967965917",
@@ -2920,7 +3278,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967965167",
@@ -2936,7 +3296,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967963658",
@@ -2952,7 +3314,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5967960895",
@@ -2968,7 +3332,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967752032",
@@ -2984,7 +3350,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967713588",
@@ -3000,7 +3368,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5967713169",
@@ -3016,7 +3386,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/rgare.com.png"
   },
   {
    "id": "adzuna:5967668568",
@@ -3032,7 +3404,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967511951",
@@ -3048,7 +3422,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5967490113",
@@ -3064,7 +3440,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967490112",
@@ -3080,7 +3458,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5967490108",
@@ -3096,7 +3476,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967343943",
@@ -3112,7 +3494,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967343916",
@@ -3128,7 +3512,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967989580",
@@ -3144,7 +3530,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967961738",
@@ -3160,7 +3548,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5967668529",
@@ -3176,7 +3566,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/valeo.com.png"
   },
   {
    "id": "adzuna:5967330865",
@@ -3192,7 +3584,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5967971855",
@@ -3208,7 +3602,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5967019128",
@@ -3224,7 +3620,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5967001117",
@@ -3240,7 +3638,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966845495",
@@ -3256,7 +3656,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5966845496",
@@ -3272,7 +3674,9 @@
    "experience_hint": "0 yrs",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5966815786",
@@ -3288,7 +3692,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5966769389",
@@ -3304,7 +3710,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5966623948",
@@ -3320,7 +3728,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5965201258",
@@ -3336,7 +3746,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5966482993",
@@ -3352,7 +3764,9 @@
    "experience_hint": "1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5966478829",
@@ -3368,7 +3782,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5966478827",
@@ -3384,7 +3800,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5966478823",
@@ -3400,7 +3818,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5966478801",
@@ -3416,7 +3836,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5966478804",
@@ -3432,7 +3854,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966478802",
@@ -3448,7 +3872,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5966478840",
@@ -3464,7 +3890,9 @@
    "experience_hint": "0–2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966478763",
@@ -3480,7 +3908,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5966478737",
@@ -3496,7 +3926,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5966478650",
@@ -3512,7 +3944,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966478701",
@@ -3528,7 +3962,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966470601",
@@ -3544,7 +3980,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5966470602",
@@ -3560,7 +3998,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5966263236",
@@ -3576,7 +4016,9 @@
    "experience_hint": "1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967015079",
@@ -3592,7 +4034,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5967017823",
@@ -3608,7 +4052,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5967007682",
@@ -3624,7 +4070,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5966999811",
@@ -3640,7 +4088,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5966995778",
@@ -3656,7 +4106,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5966815648",
@@ -3672,7 +4124,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5966625545",
@@ -3688,7 +4142,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/hsbc.com.png"
   },
   {
    "id": "adzuna:5966614095",
@@ -3704,7 +4160,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5966478736",
@@ -3720,7 +4178,9 @@
    "experience_hint": "0–2 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5966845503",
@@ -3736,7 +4196,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5966625443",
@@ -3752,7 +4214,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5966625471",
@@ -3768,7 +4232,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5966483013",
@@ -3784,7 +4250,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5967020059",
@@ -3800,7 +4268,9 @@
    "experience_hint": "0 - 1 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966478746",
@@ -3816,7 +4286,9 @@
    "experience_hint": "0 – 1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5966113554",
@@ -3832,7 +4304,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5966102292",
@@ -3848,7 +4322,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5966099928",
@@ -3864,7 +4340,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5966095559",
@@ -3880,7 +4358,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966081880",
@@ -3896,7 +4376,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5966079631",
@@ -3912,7 +4394,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966072247",
@@ -3928,7 +4412,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5965874056",
@@ -3944,7 +4430,9 @@
    "experience_hint": "7 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5965403140",
@@ -3960,7 +4448,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5966109399",
@@ -3976,7 +4466,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966091292",
@@ -3992,7 +4484,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/dalmiabharat.com.png"
   },
   {
    "id": "adzuna:5966083367",
@@ -4008,7 +4502,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5966080910",
@@ -4024,7 +4520,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5965396554",
@@ -4040,7 +4538,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/westpharma.com.png"
   },
   {
    "id": "adzuna:5965395934",
@@ -4056,7 +4556,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/hsbc.com.png"
   },
   {
    "id": "adzuna:5965395935",
@@ -4072,7 +4574,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": "assets/logos/hsbc.com.png"
   },
   {
    "id": "adzuna:5965395946",
@@ -4088,7 +4592,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/hsbc.com.png"
   },
   {
    "id": "adzuna:5965393430",
@@ -4104,7 +4610,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5965370847",
@@ -4120,7 +4628,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5965261680",
@@ -4136,7 +4646,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5966105251",
@@ -4152,7 +4664,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/cmegroup.com.png"
   },
   {
    "id": "adzuna:5966089622",
@@ -4168,7 +4682,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5966082703",
@@ -4184,7 +4700,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5966073362",
@@ -4200,7 +4718,9 @@
    "experience_hint": "4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5965957336",
@@ -4216,7 +4736,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/innovaccer.com.png"
   },
   {
    "id": "adzuna:5965370394",
@@ -4232,7 +4754,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5965201202",
@@ -4248,7 +4772,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5965201250",
@@ -4264,7 +4790,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5966099564",
@@ -4280,7 +4808,9 @@
    "experience_hint": "0 - 1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/exlservice.com.png"
   },
   {
    "id": "adzuna:5966086295",
@@ -4296,7 +4826,9 @@
    "experience_hint": "0-1 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964788756",
@@ -4312,7 +4844,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5964786377",
@@ -4328,7 +4862,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964785023",
@@ -4344,7 +4880,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964783220",
@@ -4360,7 +4898,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/genpact.com.png"
   },
   {
    "id": "adzuna:5964780199",
@@ -4376,7 +4916,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964779068",
@@ -4392,7 +4934,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964778505",
@@ -4408,7 +4952,9 @@
    "experience_hint": "50 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": "assets/logos/erm.com.png"
   },
   {
    "id": "adzuna:5964769144",
@@ -4424,7 +4970,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5964764940",
@@ -4440,7 +4988,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964763910",
@@ -4456,7 +5006,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5964753181",
@@ -4472,7 +5024,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5964198254",
@@ -4488,7 +5042,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/burnsmcd.com.png"
   },
   {
    "id": "adzuna:5964195922",
@@ -4504,7 +5060,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5964003050",
@@ -4520,7 +5078,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964002949",
@@ -4536,7 +5096,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963999039",
@@ -4552,7 +5114,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Jaipur",
+   "logo": null
   },
   {
    "id": "adzuna:5963565926",
@@ -4568,7 +5132,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5964779812",
@@ -4584,7 +5150,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5964777650",
@@ -4600,7 +5168,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5964777042",
@@ -4616,7 +5186,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964773707",
@@ -4632,7 +5204,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5964732916",
@@ -4648,7 +5222,9 @@
    "experience_hint": "0 to 2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5964544024",
@@ -4664,7 +5240,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5964544011",
@@ -4680,7 +5258,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5964197635",
@@ -4696,7 +5276,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5964195926",
@@ -4712,7 +5294,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5964195910",
@@ -4728,7 +5312,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5964004042",
@@ -4744,7 +5330,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5964004039",
@@ -4760,7 +5348,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5964787203",
@@ -4776,7 +5366,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5964785723",
@@ -4792,7 +5384,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5964782202",
@@ -4808,7 +5402,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5964757307",
@@ -4824,7 +5420,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5964004026",
@@ -4840,7 +5438,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5963997936",
@@ -4856,7 +5456,9 @@
    "experience_hint": "0–1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963469781",
@@ -4872,7 +5474,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5963468176",
@@ -4888,7 +5492,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963468006",
@@ -4904,7 +5510,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963466713",
@@ -4920,7 +5528,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963466660",
@@ -4936,7 +5546,9 @@
    "experience_hint": "0–1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963465456",
@@ -4952,7 +5564,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963463709",
@@ -4968,7 +5582,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963462787",
@@ -4984,7 +5600,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963460718",
@@ -5000,7 +5618,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963458953",
@@ -5016,7 +5636,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963458461",
@@ -5032,7 +5654,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963456502",
@@ -5048,7 +5672,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5963456438",
@@ -5064,7 +5690,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5963455653",
@@ -5080,7 +5708,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963454024",
@@ -5096,7 +5726,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963453121",
@@ -5112,7 +5744,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963452812",
@@ -5128,7 +5762,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963452032",
@@ -5144,7 +5780,9 @@
    "experience_hint": "1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963451402",
@@ -5160,7 +5798,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": "assets/logos/inc42.com.png"
   },
   {
    "id": "adzuna:5963450775",
@@ -5176,7 +5816,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963450784",
@@ -5192,7 +5834,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963449159",
@@ -5208,7 +5852,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963448815",
@@ -5224,7 +5870,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963448591",
@@ -5240,7 +5888,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963448395",
@@ -5256,7 +5906,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963447824",
@@ -5272,7 +5924,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963446253",
@@ -5288,7 +5942,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963445854",
@@ -5304,7 +5960,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963441748",
@@ -5320,7 +5978,9 @@
    "experience_hint": "0 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963441365",
@@ -5336,7 +5996,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963438594",
@@ -5352,7 +6014,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kochi",
+   "logo": null
   },
   {
    "id": "adzuna:5963437496",
@@ -5368,7 +6032,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963435813",
@@ -5384,7 +6050,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963434634",
@@ -5400,7 +6068,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963434473",
@@ -5416,7 +6086,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963430322",
@@ -5432,7 +6104,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963429167",
@@ -5448,7 +6122,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963425941",
@@ -5464,7 +6140,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963066601",
@@ -5480,7 +6158,9 @@
    "experience_hint": "3 to 4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963065845",
@@ -5496,7 +6176,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5962942480",
@@ -5512,7 +6194,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5962007722",
@@ -5528,7 +6212,9 @@
    "experience_hint": "29 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5963464707",
@@ -5544,7 +6230,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5963458592",
@@ -5560,7 +6248,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963454896",
@@ -5576,7 +6266,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Coimbatore",
+   "logo": null
   },
   {
    "id": "adzuna:5963453464",
@@ -5592,7 +6284,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963443162",
@@ -5608,7 +6302,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963434747",
@@ -5624,7 +6320,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5963432378",
@@ -5640,7 +6338,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963427931",
@@ -5656,7 +6356,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963426495",
@@ -5672,7 +6374,9 @@
    "experience_hint": "4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5962711475",
@@ -5688,7 +6392,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5962711437",
@@ -5704,7 +6410,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5962505135",
@@ -5720,7 +6428,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/apna.co.png"
   },
   {
    "id": "adzuna:5963470648",
@@ -5736,7 +6446,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963469093",
@@ -5752,7 +6464,9 @@
    "experience_hint": "0 - 1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963469075",
@@ -5768,7 +6482,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963467143",
@@ -5784,7 +6500,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963466386",
@@ -5800,7 +6518,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963465752",
@@ -5816,7 +6536,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5963463769",
@@ -5832,7 +6554,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963460864",
@@ -5848,7 +6572,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5963459361",
@@ -5864,7 +6590,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963458826",
@@ -5880,7 +6608,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963458438",
@@ -5896,7 +6626,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963458383",
@@ -5912,7 +6644,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5963454972",
@@ -5928,7 +6662,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963451783",
@@ -5944,7 +6680,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5963445439",
@@ -5960,7 +6698,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/adda247.com.png"
   },
   {
    "id": "adzuna:5963445429",
@@ -5976,7 +6716,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963440804",
@@ -5992,7 +6734,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/fynd.com.png"
   },
   {
    "id": "adzuna:5963439189",
@@ -6008,7 +6752,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chandigarh",
+   "logo": null
   },
   {
    "id": "adzuna:5963437687",
@@ -6024,7 +6770,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5963436941",
@@ -6040,7 +6788,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963436577",
@@ -6056,7 +6806,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963426958",
@@ -6072,7 +6824,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5963426145",
@@ -6088,7 +6842,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/cloudthat.com.png"
   },
   {
    "id": "adzuna:5963066166",
@@ -6104,7 +6860,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": "assets/logos/deloitte.com.png"
   },
   {
    "id": "adzuna:5962849457",
@@ -6120,7 +6878,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5962480225",
@@ -6136,7 +6896,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5962476781",
@@ -6152,7 +6914,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5961902249",
@@ -6168,7 +6932,9 @@
    "experience_hint": "1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/pentair.com.png"
   },
   {
    "id": "adzuna:5961899491",
@@ -6184,7 +6950,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5961894672",
@@ -6200,7 +6968,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5961864622",
@@ -6216,7 +6986,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5961583632",
@@ -6232,7 +7004,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5961583584",
@@ -6248,7 +7022,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5961583244",
@@ -6264,7 +7040,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5961528561",
@@ -6280,7 +7058,9 @@
    "experience_hint": "60 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5961108708",
@@ -6296,7 +7076,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5961108706",
@@ -6312,7 +7094,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5960993678",
@@ -6328,7 +7112,9 @@
    "experience_hint": "0-3 yrs",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5961899745",
@@ -6344,7 +7130,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/dneg.com.png"
   },
   {
    "id": "adzuna:5961887703",
@@ -6360,7 +7148,9 @@
    "experience_hint": "2 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5961884988",
@@ -6376,7 +7166,9 @@
    "experience_hint": "4 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5961882160",
@@ -6392,7 +7184,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": "assets/logos/vertiv.com.png"
   },
   {
    "id": "adzuna:5961583695",
@@ -6408,7 +7202,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5961583699",
@@ -6424,7 +7220,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5961583617",
@@ -6440,7 +7238,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kolkata",
+   "logo": null
   },
   {
    "id": "adzuna:5961248777",
@@ -6456,7 +7256,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5961248776",
@@ -6472,7 +7274,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5960996956",
@@ -6488,7 +7292,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5960996983",
@@ -6504,7 +7310,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5960996988",
@@ -6520,7 +7328,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5960993669",
@@ -6536,7 +7346,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5960916823",
@@ -6552,7 +7364,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5960623865",
@@ -6568,7 +7382,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5960533195",
@@ -6584,7 +7400,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5960531759",
@@ -6600,7 +7418,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5960525895",
@@ -6616,7 +7436,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5960517960",
@@ -6632,7 +7454,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5960293799",
@@ -6648,7 +7472,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5960552614",
@@ -6664,7 +7490,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Hyderabad",
+   "logo": null
   },
   {
    "id": "adzuna:5959526376",
@@ -6680,7 +7508,9 @@
    "experience_hint": "0-1 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5959163093",
@@ -6696,7 +7526,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Kochi",
+   "logo": null
   },
   {
    "id": "adzuna:5958336369",
@@ -6712,7 +7544,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/bookmyshow.com.png"
   },
   {
    "id": "adzuna:5958333091",
@@ -6728,7 +7562,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/gehealthcare.com.png"
   },
   {
    "id": "adzuna:5958329350",
@@ -6744,7 +7580,9 @@
    "experience_hint": "1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5957859477",
@@ -6760,7 +7598,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/colgatepalmolive.com.png"
   },
   {
    "id": "adzuna:5957859478",
@@ -6776,7 +7616,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/colgatepalmolive.com.png"
   },
   {
    "id": "adzuna:5957853405",
@@ -6792,7 +7634,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": "assets/logos/citigroup.com.png"
   },
   {
    "id": "adzuna:5957412084",
@@ -6808,7 +7652,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "adzuna:5957253640",
@@ -6824,7 +7670,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5957247000",
@@ -6840,7 +7688,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5957241526",
@@ -6856,7 +7706,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5957024818",
@@ -6872,7 +7724,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "adzuna:5956593420",
@@ -6888,7 +7742,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "adzuna:5956582630",
@@ -6904,7 +7760,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/conduent.com.png"
   },
   {
    "id": "adzuna:5956296804",
@@ -6920,7 +7778,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5956296700",
@@ -6936,7 +7796,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5955617682",
@@ -6952,7 +7814,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Indore",
+   "logo": null
   },
   {
    "id": "adzuna:5954493674",
@@ -6968,7 +7832,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5954489140",
@@ -6984,7 +7850,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5954437331",
@@ -7000,7 +7868,9 @@
    "experience_hint": "0-1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/conduent.com.png"
   },
   {
    "id": "adzuna:5954203732",
@@ -7016,7 +7886,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": "assets/logos/kone.com.png"
   },
   {
    "id": "adzuna:5953363518",
@@ -7032,7 +7904,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5953174784",
@@ -7048,7 +7922,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5952324465",
@@ -7064,7 +7940,9 @@
    "experience_hint": "0–1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "adzuna:5952141749",
@@ -7080,7 +7958,9 @@
    "experience_hint": "0-1 yr",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "greenhouse:rubrik:8345283",
@@ -7096,7 +7976,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/rubrik.com.png"
   },
   {
    "id": "lever:mindtickle:68626a39-ae90-4870-b3c7-04bf489f66f7",
@@ -7112,7 +7994,9 @@
    "experience_hint": "2 years",
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": "assets/logos/mindtickle.com.png"
   },
   {
    "id": "adzuna:5951899567",
@@ -7128,7 +8012,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5951635155",
@@ -7144,7 +8030,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "adzuna:5951361881",
@@ -7160,7 +8048,9 @@
    "experience_hint": "0-1 year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Mumbai",
+   "logo": null
   },
   {
    "id": "greenhouse:mongodb:8328316",
@@ -7176,7 +8066,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": "assets/logos/mongodb.com.png"
   },
   {
    "id": "adzuna:5950724487",
@@ -7192,7 +8084,9 @@
    "experience_hint": "0 - 1 years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/accenture.com.png"
   },
   {
    "id": "adzuna:5950495564",
@@ -7208,7 +8102,9 @@
    "experience_hint": "0-1 yr",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5949468912",
@@ -7224,7 +8120,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": "assets/logos/smith-nephew.com.png"
   },
   {
    "id": "adzuna:5949126898",
@@ -7240,7 +8138,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5949126836",
@@ -7256,7 +8156,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5948618696",
@@ -7272,7 +8174,9 @@
    "experience_hint": "3 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5948346093",
@@ -7288,7 +8192,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Chennai",
+   "logo": null
   },
   {
    "id": "adzuna:5947929188",
@@ -7304,7 +8210,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": null,
+   "logo": null
   },
   {
    "id": "adzuna:5946784722",
@@ -7320,7 +8228,9 @@
    "experience_hint": "0-1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5946149993",
@@ -7336,7 +8246,9 @@
    "experience_hint": "0 - 1 Years",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "adzuna:5945565309",
@@ -7352,7 +8264,9 @@
    "experience_hint": null,
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": "assets/logos/globallogic.com.png"
   },
   {
    "id": "adzuna:5945171015",
@@ -7368,7 +8282,9 @@
    "experience_hint": "0–1 Year",
    "sources": [
     "adzuna"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "greenhouse:hackerrank:8281055",
@@ -7384,7 +8300,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "lever:fampay:213870db-ddfd-4519-9a57-54691d89cca5",
@@ -7400,7 +8318,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/fampay.in.png"
   },
   {
    "id": "greenhouse:rubrik:8305308",
@@ -7416,7 +8336,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/rubrik.com.png"
   },
   {
    "id": "lever:paytm:95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
@@ -7432,7 +8354,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "lever:paytm:6d7551f7-34c3-46a2-a4e4-18b29f15338c",
@@ -7448,7 +8372,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "lever:paytm:9fe6d1ae-b69f-4f7c-91d7-78e16d6cfebe",
@@ -7464,7 +8390,9 @@
    "experience_hint": "3+ years",
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Other India",
+   "logo": null
   },
   {
    "id": "lever:paytm:c476e23a-adea-42a4-8198-fe211d3f137c",
@@ -7480,7 +8408,9 @@
    "experience_hint": "3+ years",
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Ahmedabad",
+   "logo": null
   },
   {
    "id": "lever:paytm:e0322630-04bd-4abe-b9f3-bc0ab07faecf",
@@ -7496,7 +8426,9 @@
    "experience_hint": "4+ years",
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Kochi",
+   "logo": null
   },
   {
    "id": "lever:paytm:601f0c35-ed32-4447-b39d-82cd4c6e14b8",
@@ -7512,7 +8444,9 @@
    "experience_hint": "4+ years",
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Pune",
+   "logo": null
   },
   {
    "id": "lever:paytm:0ecd9d93-e4f3-4dd0-a22e-852fec9b6e02",
@@ -7528,7 +8462,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Delhi NCR",
+   "logo": null
   },
   {
    "id": "greenhouse:hackerrank:8229735",
@@ -7544,7 +8480,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "lever:fampay:bbbbbfd2-1855-4991-82d5-84ef57607c24",
@@ -7560,7 +8498,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/fampay.in.png"
   },
   {
    "id": "lever:paytm:88e8b698-8f03-4e09-9581-168f831fb3af",
@@ -7576,7 +8516,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   },
   {
    "id": "greenhouse:rubrik:8166514",
@@ -7592,7 +8534,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/rubrik.com.png"
   },
   {
    "id": "greenhouse:rubrik:8166537",
@@ -7608,7 +8552,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/rubrik.com.png"
   },
   {
    "id": "greenhouse:stripe:8131339",
@@ -7624,7 +8570,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/stripe.com.png"
   },
   {
    "id": "greenhouse:sigmoid:8713069002",
@@ -7640,7 +8588,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/sigmoid.com.png"
   },
   {
    "id": "greenhouse:stripe:8031833",
@@ -7656,7 +8606,9 @@
    "experience_hint": null,
    "sources": [
     "greenhouse"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": "assets/logos/stripe.com.png"
   },
   {
    "id": "lever:paytm:9d497980-2032-440c-8bac-63fb53938acc",
@@ -7672,7 +8624,9 @@
    "experience_hint": null,
    "sources": [
     "lever"
-   ]
+   ],
+   "city_from_location": "Bengaluru",
+   "logo": null
   }
  ]
 }

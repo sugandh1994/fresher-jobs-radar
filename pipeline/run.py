@@ -9,14 +9,16 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+from dataclasses import fields
 from datetime import datetime, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
 
 from pipeline import filters
-from pipeline.dedupe import dedupe
+from pipeline.dedupe import city_key, dedupe
 from pipeline.models import Job
+from pipeline.logos import logo_for
 from pipeline.normalize import normalize
 from pipeline.tagger import load_taxonomy, tag_jobs
 from pipeline.sources import adzuna, greenhouse, lever
@@ -69,7 +71,8 @@ def main(argv: list[str] | None = None) -> int:
     started = datetime.now(timezone.utc)
     if args.skip_fetch:
         previous = json.loads(JOBS_FILE.read_text(encoding="utf-8"))
-        loaded = [Job(**j) for j in previous["jobs"]]
+        known = {f.name for f in fields(Job)}  # ignore display-only extras like city_from_location
+        loaded = [Job(**{k: v for k, v in j.items() if k in known}) for j in previous["jobs"]]
         run_log = json.loads(RUN_LOG_FILE.read_text(encoding="utf-8"))  # keep fetch/dedupe stats
         run_log["retagged_at"] = started.isoformat(timespec="seconds")
         # Re-apply the current filter rules (they may have been tightened since the fetch).
@@ -129,6 +132,18 @@ def fetch_filter_dedupe(run_log: dict) -> list[Job]:
     return jobs
 
 
+def location_city(location_raw: str, cities: list[str]) -> str | None:
+    """Taxonomy city read straight from the location text (no LLM), e.g.
+    "Bangalore, Karnataka" -> "Bengaluru", "Kanpur, UP" -> "Other India",
+    "India" -> None (city unknown). The page uses it when the LLM city is missing,
+    so city filters and counts work even before tagging."""
+    key = city_key(location_raw or "")
+    if key in ("", "india", "unknown"):
+        return None
+    by_key = {c.lower(): c for c in cities}
+    return by_key.get(key, "Other India" if "Other India" in cities else None)
+
+
 def tag_and_write(jobs: list[Job], run_log: dict, use_llm: bool) -> None:
     # 5. Tag (cached tags are always applied; --no-llm only skips new API calls)
     try:
@@ -174,7 +189,9 @@ def tag_and_write(jobs: list[Job], run_log: dict, use_llm: bool) -> None:
     JOBS_FILE.write_text(
         json.dumps({"updated_at": updated_at, "count": len(jobs),
                     "taxonomy": {"roles": roles, "cities": cities},
-                    "jobs": [j.to_dict() for j in jobs]}, ensure_ascii=False, indent=1),
+                    "jobs": [{**j.to_dict(), "city_from_location": location_city(j.location_raw, cities),
+                               "logo": logo_for(j.company)}
+                             for j in jobs]}, ensure_ascii=False, indent=1),
         encoding="utf-8",
     )
     run_log["steps"]["final"] = len(jobs)

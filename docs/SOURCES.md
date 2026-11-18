@@ -53,3 +53,11 @@ Checked but not added (2026-11-17): `cloudflare`, `slice`, `figma`, `coinbase` (
 - Every job card links to the original post.
 - Adzuna cards show the "Jobs by Adzuna" badge (≥116×23 px) linking to adzuna.in.
 - The footer names each source.
+
+## Company logos
+Added 2026-11-18 (approved by the project owner).
+
+- **What:** real logos for a hand-checked list of well-known employers in `pipeline/company_logos.json` (official website + the exact names each company appears under). Only exact name matches get a logo; everyone else gets an initials badge. Logos that looked wrong (Aptiv, Marriott) were dropped.
+- **How:** `python -m pipeline.logos --download` fetches each logo **once** from Google's public favicon service (`www.google.com/s2/favicons`, 128px) with the usual polite rules, and saves it to `site/assets/logos/`. Icons smaller than 48px are rejected (they'd look blurry). The daily pipeline never downloads; visitors load logos from our own site only.
+- **Use:** logos only identify the employer next to its own job post (no endorsement implied). If a company asks, remove its entry and file.
+

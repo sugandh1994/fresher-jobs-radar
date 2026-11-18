@@ -30,9 +30,12 @@ pipeline/
   tagger.py       LLM tagging with cache
   run.py          entry point: fetch → normalize → filter → dedupe → tag → write
   guard.py        publish safety check used by the daily workflow
+  logos.py        company logo lookup; `python -m pipeline.logos --download` fetches new ones once
+  company_logos.json  well-known employers whose real logo we show (exact name match only)
 site/
   index.html, app.js, styles.css, jobs.json (generated)
-  dropdown.js     accessible custom menu for Role/City (WAI-ARIA select-only combobox)
+  dropdown.js     accessible custom menu for the City dropdown (WAI-ARIA select-only combobox)
+  assets/         hero video + poster, logos/ (downloaded company logos)
 data/
   tag_cache.json  LLM results keyed by job fingerprint (generated, committed)
   run_log.json    counts per source from last run (generated)
@@ -42,6 +45,8 @@ tests/
 
 ## Common Job schema (every source must map to this)
 `id, title, company, location_raw, url, source, posted_at (ISO date), description (plain text, max 2000 chars), role, city, experience_hint`
+
+`site/jobs.json` also carries a display-only `city_from_location` (taxonomy city read from the location text, no LLM) so city filters/counts work before tagging; the page prefers the LLM `city` when present.
 
 ## Rules — always follow
 - **Never scrape** a site whose Terms of Service or robots.txt forbid it. Only use sources listed as ✅ in docs/SOURCES.md. If you want to add a source, add it to SOURCES.md with the reason first and ask me.
@@ -54,6 +59,7 @@ tests/
 - Cache LLM results; never re-tag a job that is already in `data/tag_cache.json`.
 - Keep the run under ₹50/day in LLM cost (use the small/fast model, batch 20 jobs per call).
 - The page must work with JavaScript loading only `jobs.json` — no backend.
+- Saved / applied jobs and last-visit date are kept only in the visitor's browser (localStorage). No accounts.
 - After changing `site/styles.css` or `site/app.js`, bump the `?v=` number on their links in
   `site/index.html` so browsers don't keep the old copy.
 - Every Adzuna job card must show a "Jobs by Adzuna" badge (at least 116×23 px) linking to https://www.adzuna.in — this is required by Adzuna's terms.
