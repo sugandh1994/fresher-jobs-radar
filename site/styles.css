@@ -1,0 +1,289 @@
+/* Fresher Jobs Radar — mobile-first, AA contrast, light + dark. */
+
+:root {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --ink: #1c1d1f;
+  --ink-soft: #55585e;      /* 7.0:1 on --surface */
+  --line: #e2ded5;
+  --accent: #0b6e5f;        /* 5.9:1 on white */
+  --accent-ink: #ffffff;
+  --accent-soft: #e3f1ee;
+  --chip-role-bg: #eef0fb;
+  --chip-role-ink: #2f3a8f;
+  --chip-city-bg: #fbf0e3;
+  --chip-city-ink: #7a3f06;
+  --focus: #1a5fd0;
+  --radius: 12px;
+  --shadow: 0 1px 2px rgba(28, 29, 31, .06), 0 2px 8px rgba(28, 29, 31, .04);
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  /* dropdown chevron, stroke = --ink-soft */
+  --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 6l4 4 4-4' stroke='%2355585e' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --chevron-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 10l4-4 4 4' stroke='%230b6e5f' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M3 8.5l3.2 3L13 4.5' stroke='%230b6e5f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --hover: #f1eee7;
+  --popover-shadow: 0 12px 32px rgba(28, 29, 31, .14), 0 2px 6px rgba(28, 29, 31, .06);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131416;
+    --surface: #1c1e21;
+    --ink: #eceef0;
+    --ink-soft: #a9adb3;
+    --line: #2e3136;
+    --accent: #4cc2ab;
+    --accent-ink: #0b1f1b;
+    --accent-soft: #173430;
+    --chip-role-bg: #252a4a;
+    --chip-role-ink: #c3caff;
+    --chip-city-bg: #3a2a18;
+    --chip-city-ink: #f6c88f;
+    --focus: #8ab4ff;
+    --shadow: none;
+    --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 6l4 4 4-4' stroke='%23a9adb3' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    --chevron-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 10l4-4 4 4' stroke='%234cc2ab' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    --check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M3 8.5l3.2 3L13 4.5' stroke='%234cc2ab' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    --hover: #272a2f;
+    --popover-shadow: 0 12px 32px rgba(0, 0, 0, .5);
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Elements hidden from JS must stay hidden even if a class sets display. */
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.5 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+
+a { color: var(--accent); }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute; left: 16px; top: -48px; z-index: 10;
+  background: var(--surface); color: var(--ink); padding: 8px 12px; border-radius: 8px;
+}
+.skip-link:focus { top: 12px; }
+
+/* Header */
+.site-header { padding: 40px 0 24px; }
+.eyebrow {
+  margin: 0 0 8px; font-size: 13px; font-weight: 600; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--accent);
+}
+h1 { margin: 0; font-size: clamp(28px, 6vw, 40px); line-height: 1.1; letter-spacing: -.02em; }
+.lede { margin: 12px 0 0; max-width: 60ch; color: var(--ink-soft); font-size: 17px; }
+.meta { margin: 16px 0 0; font-size: 14px; color: var(--ink-soft); }
+.meta strong { color: var(--ink); font-weight: 600; }
+
+/* Filters */
+.filters {
+  position: relative; z-index: 5;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+.filters-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 12px; align-items: end; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field-search { grid-column: 1 / -1; }
+.field label { font-size: 13px; font-weight: 600; color: var(--ink-soft); }
+
+input[type="search"], select {
+  width: 100%; min-height: 44px; padding: 8px 12px;
+  font: inherit; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+}
+input[type="search"]::placeholder { color: var(--ink-soft); opacity: .8; }
+/* Native select: only seen if dropdown.js fails to load. */
+select {
+  appearance: none; -webkit-appearance: none;
+  padding-right: 40px; cursor: pointer;
+  background-image: var(--chevron); background-repeat: no-repeat;
+  background-position: right 12px center; background-size: 16px 16px;
+}
+
+/* ---- Custom dropdown menu (site/dropdown.js) ---- */
+.dd { position: relative; min-width: 0; }
+
+.dd-combo {
+  display: flex; align-items: center;
+  min-height: 44px; padding: 8px 40px 8px 12px;
+  background: var(--surface) var(--chevron) no-repeat right 12px center / 16px 16px;
+  border: 1px solid var(--line); border-radius: 10px;
+  color: var(--ink); cursor: pointer; user-select: none;
+  transition: border-color .12s, background-color .12s;
+}
+.dd-combo:hover { border-color: var(--ink-soft); }
+.dd-value { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dd.is-open .dd-combo { border-color: var(--accent); background-image: var(--chevron-up); }
+/* A filter is on: accent border + tint. */
+.dd-combo.is-set {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  background-color: var(--accent-soft);
+}
+
+.dd-list {
+  position: absolute; z-index: 20; top: calc(100% + 6px); left: 0;
+  min-width: 100%; width: max-content; max-width: min(340px, calc(100vw - 32px));
+  max-height: min(340px, 60vh); overflow-y: auto; overscroll-behavior: contain;
+  margin: 0; padding: 6px; list-style: none;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: var(--popover-shadow);
+}
+.dd-list[hidden] { display: none; }
+
+.dd-option {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  min-height: 40px; padding: 8px 10px 8px 32px; border-radius: 8px;
+  color: var(--ink); cursor: pointer; position: relative;
+}
+.dd-option.is-active { background: var(--hover); }
+.dd-option[aria-selected="true"] { font-weight: 600; color: var(--accent); }
+.dd-option[aria-selected="true"]::before {               /* checkmark */
+  content: ""; position: absolute; left: 10px; top: 50%;
+  width: 14px; height: 14px; margin-top: -7px;
+  background: var(--check) no-repeat center / contain;
+}
+.dd-option-all { margin-bottom: 4px; }
+.dd-option-all::after {                                  /* divider under "All …" */
+  content: ""; position: absolute; left: 8px; right: 8px; bottom: -3px;
+  border-bottom: 1px solid var(--line);
+}
+.dd-count {
+  flex: none; font-size: 12px; font-weight: 600; color: var(--ink-soft);
+  background: var(--bg); border-radius: 999px; padding: 1px 8px;
+}
+
+@media (max-width: 479px) {
+  .dd-list { width: 100%; max-width: none; }             /* full width under the field on phones */
+}
+
+/* Switch */
+.field-toggle { flex-direction: row; align-items: center; gap: 10px; min-height: 44px; }
+.field-toggle label { font-size: 15px; color: var(--ink); font-weight: 500; cursor: pointer; }
+input[role="switch"] {
+  appearance: none; flex: none; width: 44px; height: 26px; margin: 0;
+  border-radius: 999px; background: var(--line); position: relative; cursor: pointer;
+  transition: background .15s;
+}
+input[role="switch"]::after {
+  content: ""; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px;
+  border-radius: 50%; background: var(--surface); box-shadow: 0 1px 2px rgba(0,0,0,.25);
+  transition: transform .15s;
+}
+input[role="switch"]:checked { background: var(--accent); }
+input[role="switch"]:checked::after { transform: translateX(18px); }
+
+.btn-clear, .btn-more, .link-btn {
+  font: inherit; cursor: pointer;
+}
+.btn-clear {
+  min-height: 44px; padding: 8px 14px; justify-self: end;
+  background: none; border: 1px solid var(--line); border-radius: 10px; color: var(--ink);
+}
+.btn-clear:disabled { opacity: .45; cursor: default; }
+
+/* Very narrow phones: Role and City each get a full row so names fit. */
+@media (max-width: 479px) {
+  .filters-inner { grid-template-columns: 1fr auto; }
+  .field:not(.field-toggle) { grid-column: 1 / -1; }   /* search, role, city: full rows */
+  .field-toggle { grid-column: 1; }                     /* toggle + Clear share the last row */
+  .btn-clear { grid-column: 2; }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .field-toggle { grid-column: 1; }
+}
+
+/* Desktop: search on its own row, then Role | City | toggle | Clear, so the
+   dropdowns are wide enough for names like "Marketing / Digital Marketing". */
+@media (min-width: 760px) {
+  .filters { position: sticky; top: 0; }
+  .filters-inner { grid-template-columns: 1fr 1fr auto auto; }
+  .field-search { grid-column: 1 / -1; }
+}
+
+/* Results */
+main { padding-top: 16px; padding-bottom: 48px; }
+main:focus { outline: none; }
+.count { margin: 0 0 12px; font-size: 14px; color: var(--ink-soft); }
+.jobs { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+
+.job article {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px;
+  display: grid; gap: 10px;
+}
+.job-title { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.job-company { margin: 2px 0 0; color: var(--ink-soft); font-size: 15px; }
+.job-company strong { color: var(--ink); font-weight: 600; }
+
+.chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+.chip-role { background: var(--chip-role-bg); color: var(--chip-role-ink); }
+.chip-city { background: var(--chip-city-bg); color: var(--chip-city-ink); }
+.chip-intern { background: var(--accent-soft); color: var(--accent); }
+
+.job-snippet {
+  margin: 0; color: var(--ink-soft); font-size: 15px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.job-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.job-when { margin: 0; font-size: 13px; color: var(--ink-soft); }
+.job-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.apply {
+  display: inline-flex; align-items: center; gap: 4px; min-height: 40px; padding: 8px 16px;
+  background: var(--accent); color: var(--accent-ink); border-radius: 10px;
+  font-weight: 600; text-decoration: none;
+}
+.apply:hover { filter: brightness(1.08); }
+
+/* Adzuna attribution — required by Adzuna's terms: at least 116×23 px, links to adzuna.in */
+.adzuna-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 116px; min-height: 23px; padding: 4px 10px;
+  border: 1px solid var(--line); border-radius: 6px;
+  font-size: 12px; font-weight: 600; color: var(--ink-soft); text-decoration: none;
+  background: var(--surface); white-space: nowrap;
+}
+.adzuna-badge b { color: var(--ink); margin-left: 3px; }
+.adzuna-badge:hover { border-color: var(--ink-soft); }
+
+.empty { text-align: center; padding: 48px 16px; color: var(--ink-soft); }
+.empty h2 { color: var(--ink); font-size: 20px; margin: 0 0 8px; }
+.link-btn { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; }
+
+.btn-more {
+  display: block; margin: 20px auto 0; min-height: 44px; padding: 10px 20px;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--ink-soft); font-size: 15px; }
+.site-footer h2 { font-size: 16px; color: var(--ink); margin: 0 0 8px; }
+.sources { margin: 0 0 12px; padding-left: 20px; }
+.site-footer p { max-width: 65ch; margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

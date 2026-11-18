@@ -17,10 +17,37 @@ read its Terms of Service, API terms and robots.txt, and write down what you che
 ## Company list for Greenhouse / Lever
 Add Indian or India-hiring companies that use these boards. Verify each slug returns jobs.
 Find the slug in the careers URL: `boards.greenhouse.io/<slug>`, `job-boards.greenhouse.io/<slug>`, or `jobs.lever.co/<slug>`.
-```
-greenhouse: []
-lever: []
-```
+The pipeline reads the live list from `pipeline/sources/companies.json` — edit that file to add/remove a company, and update the table below.
+
+Verified 2026-11-17: each slug returned jobs from the public API, with open roles located in India.
+"Fresher" = India + fresher-level by our filter (before the 30-day rule).
+
+| ATS | Slug | Company | Total jobs | In India | Fresher (India) |
+|---|---|---|---|---|---|
+| Greenhouse | `groww` | Groww | 9 | 9 | 0 |
+| Greenhouse | `druva` | Druva | 28 | 11 | 0 |
+| Greenhouse | `inmobi` | InMobi | 75 | 40 | 0 |
+| Greenhouse | `rubrik` | Rubrik | 188 | 36 | 4 |
+| Greenhouse | `databricks` | Databricks | 891 | 83 | 0 |
+| Greenhouse | `stripe` | Stripe | 794 | 44 | 3 |
+| Greenhouse | `mongodb` | MongoDB | 400 | 75 | 1 |
+| Greenhouse | `okta` | Okta | 358 | 103 | 0 |
+| Greenhouse | `twilio` | Twilio | 115 | 13 | 0 |
+| Greenhouse | `elastic` | Elastic | 384 | 17 | 0 |
+| Greenhouse | `airbnb` | Airbnb | 205 | 12 | 1 |
+| Greenhouse | `hackerrank` | HackerRank | 32 | 18 | 2 |
+| Greenhouse | `highradius` | HighRadius | 68 | 44 | 2 |
+| Greenhouse | `sigmoid` | Sigmoid | 42 | 37 | 1 |
+| Lever | `meesho` | Meesho | 47 | 47 | 0 |
+| Lever | `cred` | CRED | 15 | 15 | 0 |
+| Lever | `zeta` | Zeta | 30 | 25 | 0 |
+| Lever | `mindtickle` | Mindtickle | 20 | 17 | 0 |
+| Lever | `fampay` | FamPay | 15 | 15 | 2 |
+| Lever | `paytm` | Paytm | 200 | 193 | 17 |
+
+Checked but not added (2026-11-17): `cloudflare`, `slice`, `figma`, `coinbase` (Greenhouse — 0–10 India jobs); `gitlab` (34 India jobs but mostly remote/global, 0 fresher — kept list at 20);
+`digit` (Greenhouse), `freshworks` (Lever) — board exists but empty. ~75 other Indian company slugs
+(razorpay, swiggy, zomato, cred on Greenhouse, etc.) returned 404 on both APIs — they use other systems.
 
 ## Attribution
 - Every job card links to the original post.

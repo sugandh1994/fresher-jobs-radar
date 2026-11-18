@@ -1,0 +1,26 @@
+{
+  "greenhouse": {
+    "groww": "Groww",
+    "druva": "Druva",
+    "inmobi": "InMobi",
+    "rubrik": "Rubrik",
+    "databricks": "Databricks",
+    "stripe": "Stripe",
+    "mongodb": "MongoDB",
+    "okta": "Okta",
+    "twilio": "Twilio",
+    "elastic": "Elastic",
+    "airbnb": "Airbnb",
+    "hackerrank": "HackerRank",
+    "highradius": "HighRadius",
+    "sigmoid": "Sigmoid"
+  },
+  "lever": {
+    "meesho": "Meesho",
+    "cred": "CRED",
+    "zeta": "Zeta",
+    "mindtickle": "Mindtickle",
+    "fampay": "FamPay",
+    "paytm": "Paytm"
+  }
+}

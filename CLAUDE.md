@@ -21,12 +21,17 @@ Allowed role/city tags: @docs/TAXONOMY.md
 ```
 pipeline/
   sources/        one file per source, each exposes fetch() -> list[RawJob]
+    companies.json  Greenhouse/Lever company slugs (keep in sync with docs/SOURCES.md)
+  models.py       RawJob + Job data shapes
+  http_client.py  polite GET helper (User-Agent, 15s timeout, 1s/host delay, no keys in errors)
   normalize.py    convert every source into the common Job schema
+  filters.py      keep India + fresher-level + last 30 days
   dedupe.py       remove duplicates
   tagger.py       LLM tagging with cache
   run.py          entry point: fetch → normalize → filter → dedupe → tag → write
 site/
   index.html, app.js, styles.css, jobs.json (generated)
+  dropdown.js     accessible custom menu for Role/City (WAI-ARIA select-only combobox)
 data/
   tag_cache.json  LLM results keyed by job fingerprint (generated, committed)
   run_log.json    counts per source from last run (generated)
@@ -43,9 +48,13 @@ tests/
 - One failing source must **not** crash the run — log it and continue.
 - Never print or commit API keys. Keys come from `.env` locally and GitHub Secrets in CI.
 - LLM tags must come from the fixed lists in docs/TAXONOMY.md. Anything else → `"Other"`.
+- Site scope = TAXONOMY.md roles. Jobs the LLM tags role `"Other"` are hidden from the site
+  (untagged jobs and error fallbacks are not). To include a new kind of job, add a role to TAXONOMY.md.
 - Cache LLM results; never re-tag a job that is already in `data/tag_cache.json`.
 - Keep the run under ₹50/day in LLM cost (use the small/fast model, batch 20 jobs per call).
 - The page must work with JavaScript loading only `jobs.json` — no backend.
+- After changing `site/styles.css` or `site/app.js`, bump the `?v=` number on their links in
+  `site/index.html` so browsers don't keep the old copy.
 - Every Adzuna job card must show a "Jobs by Adzuna" badge (at least 116×23 px) linking to https://www.adzuna.in — this is required by Adzuna's terms.
 - Keep the site non-commercial (no ads, no paid features) — Adzuna's free terms depend on it.
 
@@ -58,7 +67,8 @@ tests/
 
 ## Definition of done
 - `site/jobs.json` has ≥200 unique jobs after a run.
-- ≥90% of jobs have a role and city that are not "Other" (spot-check 20 by hand).
+- ≥90% of jobs have a role and city that are not "Other" (spot-check 20 by hand) — measured
+  before out-of-scope jobs are hidden (`quality` in data/run_log.json).
 - Page supports text search + Role filter + City filter + "Last updated" date.
 - GitHub Action runs daily and on manual trigger, and the live URL updates.
 - README explains sources, dedupe logic, tagging prompt, and how to run.

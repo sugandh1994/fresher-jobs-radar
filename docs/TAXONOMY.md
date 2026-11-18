@@ -2,6 +2,9 @@
 
 The LLM must pick exactly one value from each list. Anything that doesn't fit → `Other`.
 
+**This list also sets the site's scope:** jobs tagged role `Other` are hidden from the page.
+Add a role here (e.g. "Healthcare") to start showing that kind of job.
+
 ## Roles
 - Software Engineering
 - Frontend / Web Development
