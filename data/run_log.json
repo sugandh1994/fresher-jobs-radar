@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-11-19T07:46:48+00:00",
+  "started_at": "2026-11-20T07:38:38+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1275,
+      "fetched": 1180,
       "error": null,
-      "after_filter": 466,
-      "after_dedupe": 424
+      "after_filter": 486,
+      "after_dedupe": 426
     },
     "greenhouse": {
-      "fetched": 3585,
+      "fetched": 3590,
       "error": null,
       "boards": {
         "groww": {
@@ -22,27 +22,27 @@
           "after_filter": 0
         },
         "inmobi": {
-          "fetched": 75,
+          "fetched": 78,
           "error": null,
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 200,
+          "fetched": 204,
           "error": null,
-          "after_filter": 4
+          "after_filter": 5
         },
         "databricks": {
-          "fetched": 900,
+          "fetched": 899,
           "error": null,
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 784,
+          "fetched": 773,
           "error": null,
           "after_filter": 3
         },
         "mongodb": {
-          "fetched": 403,
+          "fetched": 413,
           "error": null,
           "after_filter": 1
         },
@@ -52,22 +52,22 @@
           "after_filter": 0
         },
         "twilio": {
-          "fetched": 108,
+          "fetched": 107,
           "error": null,
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 375,
+          "fetched": 370,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 197,
+          "fetched": 204,
           "error": null,
           "after_filter": 0
         },
         "hackerrank": {
-          "fetched": 33,
+          "fetched": 31,
           "error": null,
           "after_filter": 2
         },
@@ -77,16 +77,16 @@
           "after_filter": 0
         },
         "sigmoid": {
-          "fetched": 44,
+          "fetched": 45,
           "error": null,
           "after_filter": 1
         }
       },
-      "after_filter": 11,
+      "after_filter": 12,
       "after_dedupe": 11
     },
     "lever": {
-      "fetched": 318,
+      "fetched": 323,
       "error": null,
       "boards": {
         "meesho": {
@@ -95,12 +95,12 @@
           "after_filter": 0
         },
         "cred": {
-          "fetched": 13,
+          "fetched": 12,
           "error": null,
           "after_filter": 0
         },
         "zeta": {
-          "fetched": 29,
+          "fetched": 32,
           "error": null,
           "after_filter": 0
         },
@@ -115,7 +115,7 @@
           "after_filter": 2
         },
         "paytm": {
-          "fetched": 194,
+          "fetched": 197,
           "error": null,
           "after_filter": 10
         }
@@ -125,18 +125,18 @@
     }
   },
   "steps": {
-    "fetched": 5178,
-    "normalized": 5178,
-    "after_filter": 490,
-    "after_dedupe": 447,
+    "fetched": 5093,
+    "normalized": 5093,
+    "after_filter": 511,
+    "after_dedupe": 449,
     "tagged": 0,
-    "after_scope": 447,
-    "final": 447
+    "after_scope": 449,
+    "final": 449
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 37,
+      "fingerprint": 56,
       "fuzzy": 6
     },
     "examples": [
@@ -144,18 +144,36 @@
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5970906051",
-          "title": "Business Development Representative (Fresher)",
-          "company": "Playto Labs",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970906051?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
           "id": "adzuna:5970906037",
           "title": "Business Development Representative (Fresher)",
           "company": "Playto Labs",
           "location": "Bangalore, Karnataka, India",
           "url": "https://www.adzuna.in/details/5970906037?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5970906051",
+          "title": "Business Development Representative (Fresher)",
+          "company": "Playto Labs",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5970906051?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fingerprint",
+        "score": null,
+        "kept": {
+          "id": "adzuna:5972006550",
+          "title": "Customer Support Executive ( IR & OC)",
+          "company": "Happiest Resume",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5972006550?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5970706847",
+          "title": "Customer Support Executive (IR & OC)",
+          "company": "Happiest Resume",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5970706847?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -213,24 +231,6 @@
         }
       },
       {
-        "rule": "fingerprint",
-        "score": null,
-        "kept": {
-          "id": "adzuna:5970556740",
-          "title": "Finance Executive",
-          "company": "GoGoX",
-          "location": "Chennai, Tamil Nadu, India",
-          "url": "https://www.adzuna.in/details/5970556740?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5967797908",
-          "title": "Finance Executive",
-          "company": "GoGoX",
-          "location": "Injambakkam, Chennai, India",
-          "url": "https://www.adzuna.in/details/5967797908?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
         "rule": "fuzzy",
         "score": 98.7012987012987,
         "kept": {
@@ -252,11 +252,11 @@
         "rule": "fuzzy",
         "score": 98.41269841269842,
         "kept": {
-          "id": "adzuna:5970706847",
-          "title": "Customer Support Executive (IR & OC)",
+          "id": "adzuna:5972006550",
+          "title": "Customer Support Executive ( IR & OC)",
           "company": "Happiest Resume",
           "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970706847?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5972006550?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
           "id": "adzuna:5970706831",
@@ -286,38 +286,38 @@
       },
       {
         "rule": "fuzzy",
-        "score": 91.89189189189189,
+        "score": 91.22807017543859,
         "kept": {
-          "id": "adzuna:5970570215",
-          "title": "Intern (Bachelor's)",
-          "company": "Honeywell",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970570215?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5971881105",
+          "title": "Apprentice Hiring for 2026- 2027",
+          "company": "Deutsche Bank",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5971881105?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5970534739",
-          "title": "Intern (Bachelor's)- HR",
-          "company": "Honeywell",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970534739?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5971878269",
+          "title": "Apprentice Hiring for 2027",
+          "company": "Deutsche Bank",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5971878269?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fuzzy",
-        "score": 91.89189189189189,
+        "score": 93.93939393939394,
         "kept": {
-          "id": "adzuna:5969968592",
-          "title": "Intern (Bachelor's)",
-          "company": "Honeywell Technologies",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5969968592?utm_medium=api&utm_source=167425b9"
+          "id": "greenhouse:rubrik:8166537",
+          "title": "Software Engineer (CPD) - Winter Intern",
+          "company": "Rubrik",
+          "location": "Bangalore",
+          "url": "https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537"
         },
         "dropped": {
-          "id": "adzuna:5969968595",
-          "title": "Intern (Bachelor's)- HR",
-          "company": "Honeywell Technologies",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5969968595?utm_medium=api&utm_source=167425b9"
+          "id": "greenhouse:rubrik:8166523",
+          "title": "Software Engineer - Winter Intern",
+          "company": "Rubrik",
+          "location": "Bangalore",
+          "url": "https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523"
         }
       }
     ]
@@ -326,8 +326,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 447,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBvEFF918CasicRJnELR'}",
+    "untagged": 449,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChDoQKbYgBgPNh53S97VZ'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -340,11 +340,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 447
+    "total": 449
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-19T07:48:18+00:00"
+  "finished_at": "2026-11-20T07:39:58+00:00"
 }
