@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-11-20T07:38:38+00:00",
+  "started_at": "2026-11-21T07:35:14+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1180,
+      "fetched": 1229,
       "error": null,
-      "after_filter": 486,
-      "after_dedupe": 426
+      "after_filter": 499,
+      "after_dedupe": 447
     },
     "greenhouse": {
-      "fetched": 3590,
+      "fetched": 3619,
       "error": null,
       "boards": {
         "groww": {
@@ -17,52 +17,52 @@
           "after_filter": 0
         },
         "druva": {
-          "fetched": 27,
+          "fetched": 29,
           "error": null,
           "after_filter": 0
         },
         "inmobi": {
-          "fetched": 78,
+          "fetched": 75,
           "error": null,
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 204,
+          "fetched": 207,
           "error": null,
           "after_filter": 5
         },
         "databricks": {
-          "fetched": 899,
+          "fetched": 897,
           "error": null,
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 773,
+          "fetched": 778,
           "error": null,
           "after_filter": 3
         },
         "mongodb": {
-          "fetched": 413,
+          "fetched": 417,
           "error": null,
           "after_filter": 1
         },
         "okta": {
-          "fetched": 366,
+          "fetched": 372,
           "error": null,
           "after_filter": 0
         },
         "twilio": {
-          "fetched": 107,
+          "fetched": 109,
           "error": null,
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 370,
+          "fetched": 382,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 204,
+          "fetched": 202,
           "error": null,
           "after_filter": 0
         },
@@ -77,7 +77,7 @@
           "after_filter": 0
         },
         "sigmoid": {
-          "fetched": 45,
+          "fetched": 47,
           "error": null,
           "after_filter": 1
         }
@@ -86,7 +86,7 @@
       "after_dedupe": 11
     },
     "lever": {
-      "fetched": 323,
+      "fetched": 324,
       "error": null,
       "boards": {
         "meesho": {
@@ -95,19 +95,19 @@
           "after_filter": 0
         },
         "cred": {
-          "fetched": 12,
+          "fetched": 11,
           "error": null,
           "after_filter": 0
         },
         "zeta": {
-          "fetched": 32,
+          "fetched": 33,
           "error": null,
           "after_filter": 0
         },
         "mindtickle": {
-          "fetched": 20,
+          "fetched": 19,
           "error": null,
-          "after_filter": 1
+          "after_filter": 0
         },
         "fampay": {
           "fetched": 14,
@@ -115,119 +115,137 @@
           "after_filter": 2
         },
         "paytm": {
-          "fetched": 197,
+          "fetched": 199,
           "error": null,
           "after_filter": 10
         }
       },
-      "after_filter": 13,
-      "after_dedupe": 12
+      "after_filter": 12,
+      "after_dedupe": 11
     }
   },
   "steps": {
-    "fetched": 5093,
-    "normalized": 5093,
-    "after_filter": 511,
-    "after_dedupe": 449,
+    "fetched": 5172,
+    "normalized": 5172,
+    "after_filter": 523,
+    "after_dedupe": 468,
     "tagged": 0,
-    "after_scope": 449,
-    "final": 449
+    "after_scope": 468,
+    "final": 468
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 56,
-      "fuzzy": 6
+      "fingerprint": 51,
+      "fuzzy": 4
     },
     "examples": [
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5970906037",
-          "title": "Business Development Representative (Fresher)",
-          "company": "Playto Labs",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970906037?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5970906051",
-          "title": "Business Development Representative (Fresher)",
-          "company": "Playto Labs",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970906051?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fingerprint",
-        "score": null,
-        "kept": {
-          "id": "adzuna:5972006550",
-          "title": "Customer Support Executive ( IR & OC)",
-          "company": "Happiest Resume",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5972006550?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5970706847",
-          "title": "Customer Support Executive (IR & OC)",
-          "company": "Happiest Resume",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970706847?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fingerprint",
-        "score": null,
-        "kept": {
-          "id": "adzuna:5970706862",
-          "title": "Picker & Packer",
-          "company": "Happiest Resume",
+          "id": "adzuna:5973501863",
+          "title": "International Voice Process",
+          "company": "Hucon Solutions India Private Limited",
           "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5970706862?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5973501863?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5970706851",
-          "title": "Picker Packer",
-          "company": "Happiest Resume",
+          "id": "adzuna:5973501859",
+          "title": "International Voice Process",
+          "company": "Hucon Solutions India Private Limited",
           "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5970706851?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5973501859?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5968597876",
-          "title": "Customer Support Executive",
-          "company": "Tap Growth ai",
-          "location": "Asvini, Mumbai, India",
-          "url": "https://www.adzuna.in/details/5968597876?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5973501863",
+          "title": "International Voice Process",
+          "company": "Hucon Solutions India Private Limited",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5973501863?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5968597865",
-          "title": "Customer Support Executive",
-          "company": "Tap Growth ai",
-          "location": "Asvini, Mumbai, India",
-          "url": "https://www.adzuna.in/details/5968597865?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5972408646",
+          "title": "International Voice Process",
+          "company": "Hucon Solutions India Private Limited",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5972408646?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5969315040",
-          "title": "SALES & APPLICATION ENGINEER- Fresher",
-          "company": "2coms",
-          "location": "Khengrapatti, Kolkata, India",
-          "url": "https://www.adzuna.in/details/5969315040?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5971915087",
+          "title": "Claims Handler - Job opportunity for Freshers",
+          "company": "WTW",
+          "location": "Thane, Maharashtra, India",
+          "url": "https://www.adzuna.in/land/ad/5971915087?se=OLzVGn7l8RGfX4kwY6HxKw&utm_medium=api&utm_source=167425b9&v=3F6E8DEC4787713C1AD123C459810F9D6FBF77C1"
         },
         "dropped": {
-          "id": "adzuna:5968301929",
-          "title": "SALES & APPLICATION ENGINEER- Fresher",
-          "company": "2coms",
-          "location": "Khengrapatti, Kolkata, India",
-          "url": "https://www.adzuna.in/details/5968301929?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5971879549",
+          "title": "Claims Handler - Job opportunity for Freshers",
+          "company": "WTW",
+          "location": "Thane, Maharashtra, India",
+          "url": "https://www.adzuna.in/details/5971879549?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fingerprint",
+        "score": null,
+        "kept": {
+          "id": "adzuna:5971915087",
+          "title": "Claims Handler - Job opportunity for Freshers",
+          "company": "WTW",
+          "location": "Thane, Maharashtra, India",
+          "url": "https://www.adzuna.in/land/ad/5971915087?se=OLzVGn7l8RGfX4kwY6HxKw&utm_medium=api&utm_source=167425b9&v=3F6E8DEC4787713C1AD123C459810F9D6FBF77C1"
+        },
+        "dropped": {
+          "id": "adzuna:5971511013",
+          "title": "Claims Handler - Job opportunity for Freshers",
+          "company": "WTW",
+          "location": "Thane, Maharashtra, India",
+          "url": "https://www.adzuna.in/details/5971511013?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fingerprint",
+        "score": null,
+        "kept": {
+          "id": "adzuna:5973691967",
+          "title": "IT Intern",
+          "company": "ThermoFisher Scientific",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5973691967?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5973691962",
+          "title": "IT Intern",
+          "company": "ThermoFisher Scientific",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5973691962?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fuzzy",
+        "score": 93.02325581395348,
+        "kept": {
+          "id": "adzuna:5972892396",
+          "title": "US IT Trainee Recruiter",
+          "company": "DevCare solutions pvt ltd",
+          "location": "Chennai, Tamil Nadu, India",
+          "url": "https://www.adzuna.in/details/5972892396?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5971629973",
+          "title": "Trainee US Recruiter",
+          "company": "DevCare solutions pvt ltd",
+          "location": "Chennai, Tamil Nadu, India",
+          "url": "https://www.adzuna.in/details/5971629973?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -250,74 +268,38 @@
       },
       {
         "rule": "fuzzy",
-        "score": 98.41269841269842,
-        "kept": {
-          "id": "adzuna:5972006550",
-          "title": "Customer Support Executive ( IR & OC)",
-          "company": "Happiest Resume",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5972006550?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5970706831",
-          "title": "Cutomer Support Executive (IR - OC)",
-          "company": "Happiest Resume",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970706831?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fuzzy",
-        "score": 91.3907284768212,
-        "kept": {
-          "id": "adzuna:5969314842",
-          "title": "Assistant Professor-CSE/AIML/AIDS/Cyber Security/IT/Cloud Computing (ME/M.Tech or PhD Freshers) needed for University in Kopargaon, Ahmednagar, Maharashtra",
-          "company": "EducoHire",
-          "location": "Rahata, Ahmednagar, India",
-          "url": "https://www.adzuna.in/details/5969314842?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5969314716",
-          "title": "Assistant Professor-CSE/AIML/AIDS/Cyber Security/IT/Cloud Computing (PhD Freshers) needed for University in Kopargaon, Ahmednagar, Maharashtra - ( Job ID - 23885)",
-          "company": "EducoHire",
-          "location": "Rahata, Ahmednagar, India",
-          "url": "https://www.adzuna.in/details/5969314716?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fuzzy",
-        "score": 91.22807017543859,
-        "kept": {
-          "id": "adzuna:5971881105",
-          "title": "Apprentice Hiring for 2026- 2027",
-          "company": "Deutsche Bank",
-          "location": "India",
-          "url": "https://www.adzuna.in/details/5971881105?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5971878269",
-          "title": "Apprentice Hiring for 2027",
-          "company": "Deutsche Bank",
-          "location": "India",
-          "url": "https://www.adzuna.in/details/5971878269?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fuzzy",
         "score": 93.93939393939394,
         "kept": {
+          "id": "adzuna:5973691145",
+          "title": "Software Engineer - Winter Intern",
+          "company": "Rubrik",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5973691145?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
           "id": "greenhouse:rubrik:8166537",
           "title": "Software Engineer (CPD) - Winter Intern",
           "company": "Rubrik",
           "location": "Bangalore",
           "url": "https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537"
+        }
+      },
+      {
+        "rule": "fuzzy",
+        "score": 100.0,
+        "kept": {
+          "id": "lever:paytm:426a6834-1397-4e65-94af-69874c790805",
+          "title": "Intern - Talent Acquisition",
+          "company": "Paytm",
+          "location": "Gurugram, Haryana / Noida, Uttar Pradesh, India",
+          "url": "https://jobs.lever.co/paytm/426a6834-1397-4e65-94af-69874c790805"
         },
         "dropped": {
-          "id": "greenhouse:rubrik:8166523",
-          "title": "Software Engineer - Winter Intern",
-          "company": "Rubrik",
-          "location": "Bangalore",
-          "url": "https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523"
+          "id": "lever:paytm:6d7551f7-34c3-46a2-a4e4-18b29f15338c",
+          "title": "Talent Acquisition Intern",
+          "company": "Paytm",
+          "location": "Noida, Uttar Pradesh, India",
+          "url": "https://jobs.lever.co/paytm/6d7551f7-34c3-46a2-a4e4-18b29f15338c"
         }
       }
     ]
@@ -326,8 +308,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 449,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChDoQKbYgBgPNh53S97VZ'}",
+    "untagged": 468,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChFgwvwsJ83MxFrz17Kjj'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -340,11 +322,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 449
+    "total": 468
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-20T07:39:58+00:00"
+  "finished_at": "2026-11-21T07:36:31+00:00"
 }
