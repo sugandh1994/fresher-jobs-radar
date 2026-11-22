@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-11-21T07:35:14+00:00",
+  "started_at": "2026-11-22T07:17:19+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1229,
+      "fetched": 1260,
       "error": null,
-      "after_filter": 499,
-      "after_dedupe": 447
+      "after_filter": 488,
+      "after_dedupe": 442
     },
     "greenhouse": {
-      "fetched": 3619,
+      "fetched": 3617,
       "error": null,
       "boards": {
         "groww": {
-          "fetched": 9,
+          "fetched": 8,
           "error": null,
           "after_filter": 0
         },
@@ -27,17 +27,17 @@
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 207,
+          "fetched": 208,
           "error": null,
           "after_filter": 5
         },
         "databricks": {
-          "fetched": 897,
+          "fetched": 895,
           "error": null,
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 778,
+          "fetched": 777,
           "error": null,
           "after_filter": 3
         },
@@ -72,7 +72,7 @@
           "after_filter": 2
         },
         "highradius": {
-          "fetched": 64,
+          "fetched": 65,
           "error": null,
           "after_filter": 0
         },
@@ -125,18 +125,18 @@
     }
   },
   "steps": {
-    "fetched": 5172,
-    "normalized": 5172,
-    "after_filter": 523,
-    "after_dedupe": 468,
+    "fetched": 5201,
+    "normalized": 5201,
+    "after_filter": 512,
+    "after_dedupe": 463,
     "tagged": 0,
-    "after_scope": 468,
-    "final": 468
+    "after_scope": 463,
+    "final": 463
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 51,
+      "fingerprint": 45,
       "fuzzy": 4
     },
     "examples": [
@@ -180,54 +180,54 @@
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5971915087",
-          "title": "Claims Handler - Job opportunity for Freshers",
-          "company": "WTW",
-          "location": "Thane, Maharashtra, India",
-          "url": "https://www.adzuna.in/land/ad/5971915087?se=OLzVGn7l8RGfX4kwY6HxKw&utm_medium=api&utm_source=167425b9&v=3F6E8DEC4787713C1AD123C459810F9D6FBF77C1"
+          "id": "adzuna:5974799490",
+          "title": "Intern (Bachelor's)",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5974799490?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5971879549",
-          "title": "Claims Handler - Job opportunity for Freshers",
-          "company": "WTW",
-          "location": "Thane, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5971879549?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5974799491",
+          "title": "Intern (Bachelor's)",
+          "company": "Honeywell Technologies",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5974799491?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5971915087",
-          "title": "Claims Handler - Job opportunity for Freshers",
-          "company": "WTW",
-          "location": "Thane, Maharashtra, India",
-          "url": "https://www.adzuna.in/land/ad/5971915087?se=OLzVGn7l8RGfX4kwY6HxKw&utm_medium=api&utm_source=167425b9&v=3F6E8DEC4787713C1AD123C459810F9D6FBF77C1"
+          "id": "adzuna:5974347744",
+          "title": "Apprentice",
+          "company": "American Express",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5974347744?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5971511013",
-          "title": "Claims Handler - Job opportunity for Freshers",
-          "company": "WTW",
-          "location": "Thane, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5971511013?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5974335975",
+          "title": "Apprentice",
+          "company": "American Express",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5974335975?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5973691967",
-          "title": "IT Intern",
-          "company": "ThermoFisher Scientific",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5973691967?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5974800368",
+          "title": "Co-op/Apprentice (Non-Tech)",
+          "company": "Medtronic",
+          "location": "Gurgaon, Haryana, India",
+          "url": "https://www.adzuna.in/details/5974800368?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5973691962",
-          "title": "IT Intern",
-          "company": "ThermoFisher Scientific",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5973691962?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5974335573",
+          "title": "Co-op/Apprentice (Non-Tech)",
+          "company": "Medtronic",
+          "location": "Gurgaon, Haryana, India",
+          "url": "https://www.adzuna.in/details/5974335573?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -308,8 +308,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 468,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChFgwvwsJ83MxFrz17Kjj'}",
+    "untagged": 463,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChHZQ46nJS9mGpsYGxWN8'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -322,11 +322,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 468
+    "total": 463
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-21T07:36:31+00:00"
+  "finished_at": "2026-11-22T07:18:42+00:00"
 }
