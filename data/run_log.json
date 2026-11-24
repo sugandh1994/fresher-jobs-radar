@@ -1,48 +1,48 @@
 {
-  "started_at": "2026-11-22T07:17:19+00:00",
+  "started_at": "2026-11-24T10:16:01+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1260,
+      "fetched": 1272,
       "error": null,
-      "after_filter": 488,
-      "after_dedupe": 442
+      "after_filter": 478,
+      "after_dedupe": 433
     },
     "greenhouse": {
-      "fetched": 3617,
+      "fetched": 3609,
       "error": null,
       "boards": {
         "groww": {
-          "fetched": 8,
+          "fetched": 7,
           "error": null,
           "after_filter": 0
         },
         "druva": {
-          "fetched": 29,
+          "fetched": 26,
           "error": null,
           "after_filter": 0
         },
         "inmobi": {
-          "fetched": 75,
+          "fetched": 66,
           "error": null,
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 208,
+          "fetched": 220,
           "error": null,
-          "after_filter": 5
+          "after_filter": 4
         },
         "databricks": {
-          "fetched": 895,
+          "fetched": 888,
           "error": null,
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 777,
+          "fetched": 771,
           "error": null,
           "after_filter": 3
         },
         "mongodb": {
-          "fetched": 417,
+          "fetched": 421,
           "error": null,
           "after_filter": 1
         },
@@ -52,41 +52,41 @@
           "after_filter": 0
         },
         "twilio": {
-          "fetched": 109,
+          "fetched": 116,
           "error": null,
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 382,
+          "fetched": 384,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 202,
+          "fetched": 199,
           "error": null,
           "after_filter": 0
         },
         "hackerrank": {
-          "fetched": 31,
+          "fetched": 32,
           "error": null,
           "after_filter": 2
         },
         "highradius": {
-          "fetched": 65,
+          "fetched": 64,
           "error": null,
           "after_filter": 0
         },
         "sigmoid": {
-          "fetched": 47,
+          "fetched": 43,
           "error": null,
           "after_filter": 1
         }
       },
-      "after_filter": 12,
+      "after_filter": 11,
       "after_dedupe": 11
     },
     "lever": {
-      "fetched": 324,
+      "fetched": 314,
       "error": null,
       "boards": {
         "meesho": {
@@ -105,38 +105,38 @@
           "after_filter": 0
         },
         "mindtickle": {
-          "fetched": 19,
+          "fetched": 20,
           "error": null,
           "after_filter": 0
         },
         "fampay": {
-          "fetched": 14,
+          "fetched": 13,
           "error": null,
           "after_filter": 2
         },
         "paytm": {
-          "fetched": 199,
+          "fetched": 189,
           "error": null,
-          "after_filter": 10
+          "after_filter": 11
         }
       },
-      "after_filter": 12,
-      "after_dedupe": 11
+      "after_filter": 13,
+      "after_dedupe": 12
     }
   },
   "steps": {
-    "fetched": 5201,
-    "normalized": 5201,
-    "after_filter": 512,
-    "after_dedupe": 463,
+    "fetched": 5195,
+    "normalized": 5195,
+    "after_filter": 502,
+    "after_dedupe": 455,
     "tagged": 0,
-    "after_scope": 463,
-    "final": 463
+    "after_scope": 455,
+    "final": 455
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 45,
+      "fingerprint": 43,
       "fuzzy": 4
     },
     "examples": [
@@ -162,18 +162,18 @@
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5973501863",
-          "title": "International Voice Process",
-          "company": "Hucon Solutions India Private Limited",
-          "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5973501863?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5976865149",
+          "title": "Credit Support Apprentice (Apprentice-12 Months)",
+          "company": "HSBC",
+          "location": "Ahmedabad, Gujarat, India",
+          "url": "https://www.adzuna.in/details/5976865149?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5972408646",
-          "title": "International Voice Process",
-          "company": "Hucon Solutions India Private Limited",
-          "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5972408646?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5976089643",
+          "title": "Credit Support Apprentice (Apprentice-12 Months)",
+          "company": "HSBC",
+          "location": "Ahmedabad, Gujarat, India",
+          "url": "https://www.adzuna.in/details/5976089643?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -252,29 +252,29 @@
         "rule": "fuzzy",
         "score": 98.7012987012987,
         "kept": {
-          "id": "adzuna:5970906038",
-          "title": "Business Development Associate (Fresher)",
-          "company": "Playto Labs",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970906038?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
           "id": "adzuna:5970906046",
           "title": "Business Development Associate (Freshers)",
           "company": "Playto Labs",
           "location": "Bangalore, Karnataka, India",
           "url": "https://www.adzuna.in/details/5970906046?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5970906038",
+          "title": "Business Development Associate (Fresher)",
+          "company": "Playto Labs",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5970906038?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fuzzy",
         "score": 93.93939393939394,
         "kept": {
-          "id": "adzuna:5973691145",
+          "id": "adzuna:5975252570",
           "title": "Software Engineer - Winter Intern",
           "company": "Rubrik",
           "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5973691145?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5975252570?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
           "id": "greenhouse:rubrik:8166537",
@@ -308,8 +308,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 463,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChHZQ46nJS9mGpsYGxWN8'}",
+    "untagged": 455,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMadjdYNYScdzyqfqv9z'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -322,11 +322,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 463
+    "total": 455
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-22T07:18:42+00:00"
+  "finished_at": "2026-11-24T10:17:17+00:00"
 }
