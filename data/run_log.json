@@ -1,33 +1,33 @@
 {
-  "started_at": "2026-11-24T10:16:01+00:00",
+  "started_at": "2026-11-25T08:58:53+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1272,
+      "fetched": 1267,
       "error": null,
-      "after_filter": 478,
-      "after_dedupe": 433
+      "after_filter": 472,
+      "after_dedupe": 444
     },
     "greenhouse": {
-      "fetched": 3609,
+      "fetched": 3616,
       "error": null,
       "boards": {
         "groww": {
-          "fetched": 7,
+          "fetched": 8,
           "error": null,
           "after_filter": 0
         },
         "druva": {
-          "fetched": 26,
+          "fetched": 25,
           "error": null,
           "after_filter": 0
         },
         "inmobi": {
-          "fetched": 66,
+          "fetched": 67,
           "error": null,
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 220,
+          "fetched": 226,
           "error": null,
           "after_filter": 4
         },
@@ -39,35 +39,35 @@
         "stripe": {
           "fetched": 771,
           "error": null,
-          "after_filter": 3
+          "after_filter": 2
         },
         "mongodb": {
-          "fetched": 421,
+          "fetched": 419,
           "error": null,
           "after_filter": 1
         },
         "okta": {
-          "fetched": 372,
+          "fetched": 371,
           "error": null,
           "after_filter": 0
         },
         "twilio": {
-          "fetched": 116,
+          "fetched": 113,
           "error": null,
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 384,
+          "fetched": 390,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 199,
+          "fetched": 200,
           "error": null,
           "after_filter": 0
         },
         "hackerrank": {
-          "fetched": 32,
+          "fetched": 31,
           "error": null,
           "after_filter": 2
         },
@@ -82,11 +82,11 @@
           "after_filter": 1
         }
       },
-      "after_filter": 11,
-      "after_dedupe": 11
+      "after_filter": 10,
+      "after_dedupe": 10
     },
     "lever": {
-      "fetched": 314,
+      "fetched": 316,
       "error": null,
       "boards": {
         "meesho": {
@@ -100,7 +100,7 @@
           "after_filter": 0
         },
         "zeta": {
-          "fetched": 33,
+          "fetched": 34,
           "error": null,
           "after_filter": 0
         },
@@ -115,47 +115,65 @@
           "after_filter": 2
         },
         "paytm": {
-          "fetched": 189,
+          "fetched": 190,
           "error": null,
-          "after_filter": 11
+          "after_filter": 12
         }
       },
-      "after_filter": 13,
-      "after_dedupe": 12
+      "after_filter": 14,
+      "after_dedupe": 13
     }
   },
   "steps": {
-    "fetched": 5195,
-    "normalized": 5195,
-    "after_filter": 502,
-    "after_dedupe": 455,
+    "fetched": 5199,
+    "normalized": 5199,
+    "after_filter": 496,
+    "after_dedupe": 466,
     "tagged": 0,
-    "after_scope": 455,
-    "final": 455
+    "after_scope": 466,
+    "final": 466
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 43,
-      "fuzzy": 4
+      "fingerprint": 25,
+      "fuzzy": 5
     },
     "examples": [
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5973501863",
-          "title": "International Voice Process",
-          "company": "Hucon Solutions India Private Limited",
+          "id": "adzuna:5977109782",
+          "title": "Trainee Executive \u2013 Freshers\u2013 US Healthcare Voice Process",
+          "company": "Harmony United Psychiatric Care",
           "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5973501863?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5977109782?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5973501859",
-          "title": "International Voice Process",
-          "company": "Hucon Solutions India Private Limited",
+          "id": "adzuna:5974351934",
+          "title": "Trainee Executive \u2013 Freshers\u2013 US Healthcare Voice Process",
+          "company": "Harmony United Psychiatric Care",
           "location": "Hyderabad, Telangana, India",
-          "url": "https://www.adzuna.in/details/5973501859?utm_medium=api&utm_source=167425b9"
+          "url": "https://www.adzuna.in/details/5974351934?utm_medium=api&utm_source=167425b9"
+        }
+      },
+      {
+        "rule": "fingerprint",
+        "score": null,
+        "kept": {
+          "id": "adzuna:5977136547",
+          "title": "Business Development Associate",
+          "company": "The OmniJobs",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5977136547?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5974085284",
+          "title": "Business Development Associate",
+          "company": "The OmniJobs",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5974085284?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -180,54 +198,54 @@
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5974799490",
-          "title": "Intern (Bachelor's)",
-          "company": "Honeywell Technologies",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5974799490?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5978014740",
+          "title": "Diploma Trainee",
+          "company": "Wabtec Corporation",
+          "location": "Mysore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5978014740?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5974799491",
-          "title": "Intern (Bachelor's)",
-          "company": "Honeywell Technologies",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5974799491?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5976384539",
+          "title": "Diploma Trainee",
+          "company": "Wabtec",
+          "location": "Mysore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5976384539?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5974347744",
-          "title": "Apprentice",
-          "company": "American Express",
-          "location": "India",
-          "url": "https://www.adzuna.in/details/5974347744?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5976865154",
+          "title": "CA Industrial Trainee (12 Months)",
+          "company": "HSBC",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5976865154?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5974335975",
-          "title": "Apprentice",
-          "company": "American Express",
-          "location": "India",
-          "url": "https://www.adzuna.in/details/5974335975?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5975997785",
+          "title": "CA Industrial Trainee (12 Months)",
+          "company": "HSBC",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5975997785?utm_medium=api&utm_source=167425b9"
         }
       },
       {
-        "rule": "fingerprint",
-        "score": null,
+        "rule": "fuzzy",
+        "score": 95.45454545454545,
         "kept": {
-          "id": "adzuna:5974800368",
-          "title": "Co-op/Apprentice (Non-Tech)",
-          "company": "Medtronic",
-          "location": "Gurgaon, Haryana, India",
-          "url": "https://www.adzuna.in/details/5974800368?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5977321148",
+          "title": "Trainee Data Sceintist",
+          "company": "Equifax",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5977321148?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5974335573",
-          "title": "Co-op/Apprentice (Non-Tech)",
-          "company": "Medtronic",
-          "location": "Gurgaon, Haryana, India",
-          "url": "https://www.adzuna.in/details/5974335573?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5974345858",
+          "title": "Trainee Data Scientist",
+          "company": "Equifax",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5974345858?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -252,18 +270,18 @@
         "rule": "fuzzy",
         "score": 98.7012987012987,
         "kept": {
-          "id": "adzuna:5970906046",
-          "title": "Business Development Associate (Freshers)",
-          "company": "Playto Labs",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5970906046?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
           "id": "adzuna:5970906038",
           "title": "Business Development Associate (Fresher)",
           "company": "Playto Labs",
           "location": "Bangalore, Karnataka, India",
           "url": "https://www.adzuna.in/details/5970906038?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5970906046",
+          "title": "Business Development Associate (Freshers)",
+          "company": "Playto Labs",
+          "location": "Bangalore, Karnataka, India",
+          "url": "https://www.adzuna.in/details/5970906046?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -308,8 +326,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 455,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMadjdYNYScdzyqfqv9z'}",
+    "untagged": 466,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPNZkSRD8unuqt2hat8x'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -322,11 +340,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 455
+    "total": 466
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-24T10:17:17+00:00"
+  "finished_at": "2026-11-25T09:00:12+00:00"
 }
