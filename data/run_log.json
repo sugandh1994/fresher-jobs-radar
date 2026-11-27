@@ -1,20 +1,20 @@
 {
-  "started_at": "2026-11-26T08:45:20+00:00",
+  "started_at": "2026-11-27T08:56:00+00:00",
   "sources": {
     "adzuna": {
-      "fetched": 1234,
+      "fetched": 1266,
       "error": null,
-      "after_filter": 466,
-      "after_dedupe": 434
+      "after_filter": 476,
+      "after_dedupe": 446
     },
     "greenhouse": {
-      "fetched": 3586,
+      "fetched": 3574,
       "error": null,
       "boards": {
         "groww": {
-          "fetched": 8,
+          "fetched": 9,
           "error": null,
-          "after_filter": 0
+          "after_filter": 1
         },
         "druva": {
           "fetched": 24,
@@ -22,27 +22,27 @@
           "after_filter": 0
         },
         "inmobi": {
-          "fetched": 62,
+          "fetched": 63,
           "error": null,
           "after_filter": 0
         },
         "rubrik": {
-          "fetched": 218,
+          "fetched": 222,
           "error": null,
-          "after_filter": 4
+          "after_filter": 5
         },
         "databricks": {
-          "fetched": 878,
+          "fetched": 879,
           "error": null,
           "after_filter": 0
         },
         "stripe": {
-          "fetched": 772,
+          "fetched": 767,
           "error": null,
           "after_filter": 1
         },
         "mongodb": {
-          "fetched": 422,
+          "fetched": 421,
           "error": null,
           "after_filter": 1
         },
@@ -52,17 +52,17 @@
           "after_filter": 0
         },
         "twilio": {
-          "fetched": 111,
+          "fetched": 113,
           "error": null,
           "after_filter": 0
         },
         "elastic": {
-          "fetched": 392,
+          "fetched": 375,
           "error": null,
           "after_filter": 0
         },
         "airbnb": {
-          "fetched": 199,
+          "fetched": 201,
           "error": null,
           "after_filter": 0
         },
@@ -79,23 +79,23 @@
         "sigmoid": {
           "fetched": 43,
           "error": null,
-          "after_filter": 1
+          "after_filter": 0
         }
       },
-      "after_filter": 9,
-      "after_dedupe": 9
+      "after_filter": 10,
+      "after_dedupe": 10
     },
     "lever": {
-      "fetched": 323,
+      "fetched": 336,
       "error": null,
       "boards": {
         "meesho": {
-          "fetched": 49,
+          "fetched": 60,
           "error": null,
           "after_filter": 0
         },
         "cred": {
-          "fetched": 11,
+          "fetched": 10,
           "error": null,
           "after_filter": 0
         },
@@ -105,41 +105,59 @@
           "after_filter": 1
         },
         "mindtickle": {
-          "fetched": 20,
+          "fetched": 17,
           "error": null,
           "after_filter": 0
         },
         "fampay": {
-          "fetched": 12,
+          "fetched": 13,
           "error": null,
-          "after_filter": 2
+          "after_filter": 3
         },
         "paytm": {
-          "fetched": 193,
+          "fetched": 198,
           "error": null,
-          "after_filter": 12
+          "after_filter": 13
         }
       },
-      "after_filter": 15,
-      "after_dedupe": 14
+      "after_filter": 17,
+      "after_dedupe": 16
     }
   },
   "steps": {
-    "fetched": 5143,
-    "normalized": 5143,
-    "after_filter": 490,
-    "after_dedupe": 457,
+    "fetched": 5176,
+    "normalized": 5176,
+    "after_filter": 503,
+    "after_dedupe": 470,
     "tagged": 0,
-    "after_scope": 457,
-    "final": 457
+    "after_scope": 470,
+    "final": 470
   },
   "dedupe": {
     "removed_by_rule": {
       "url": 0,
-      "fingerprint": 29,
-      "fuzzy": 4
+      "fingerprint": 30,
+      "fuzzy": 3
     },
     "examples": [
+      {
+        "rule": "fingerprint",
+        "score": null,
+        "kept": {
+          "id": "adzuna:5979996026",
+          "title": "Podcast Growth & Content Associate",
+          "company": "Techify Solutions Pvt Ltd",
+          "location": "Ahmedabad, Gujarat, India",
+          "url": "https://www.adzuna.in/details/5979996026?utm_medium=api&utm_source=167425b9"
+        },
+        "dropped": {
+          "id": "adzuna:5979858945",
+          "title": "Podcast Growth & Content Associate",
+          "company": "Techify Solutions",
+          "location": "Ahmedabad, Gujarat, India",
+          "url": "https://www.adzuna.in/details/5979858945?utm_medium=api&utm_source=167425b9"
+        }
+      },
       {
         "rule": "fingerprint",
         "score": null,
@@ -162,90 +180,54 @@
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5979236983",
-          "title": "Intern",
-          "company": "IQVIA",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5979236983?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5980463301",
+          "title": "Apprentice",
+          "company": "American Express",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5980463301?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5978653288",
-          "title": "Intern",
-          "company": "IQVIA",
-          "location": "Bangalore, Karnataka, India",
-          "url": "https://www.adzuna.in/details/5978653288?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5979884402",
+          "title": "Apprentice",
+          "company": "American Express",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5979884402?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5978681822",
-          "title": "Internship",
-          "company": "POORNATHA",
-          "location": "Ekkaduthangal, Chennai, India",
-          "url": "https://www.adzuna.in/details/5978681822?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5980461114",
+          "title": "Grid Automation Intern",
+          "company": "GE Vernova",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5980461114?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5978241720",
-          "title": "Internship",
-          "company": "Poornatha",
-          "location": "Chennai, Tamil Nadu, India",
-          "url": "https://www.adzuna.in/details/5978241720?utm_medium=api&utm_source=167425b9"
+          "id": "adzuna:5979874477",
+          "title": "Grid Automation Intern",
+          "company": "GE Vernova",
+          "location": "Hyderabad, Telangana, India",
+          "url": "https://www.adzuna.in/details/5979874477?utm_medium=api&utm_source=167425b9"
         }
       },
       {
         "rule": "fingerprint",
         "score": null,
         "kept": {
-          "id": "adzuna:5978651750",
+          "id": "adzuna:5979880503",
           "title": "Intern",
-          "company": "Cornerstone OnDemand",
-          "location": "Pune, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5978651750?utm_medium=api&utm_source=167425b9"
+          "company": "Sabre",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5979880503?utm_medium=api&utm_source=167425b9"
         },
         "dropped": {
-          "id": "adzuna:5978011426",
+          "id": "adzuna:5979865834",
           "title": "Intern",
-          "company": "Cornerstone onDemand",
-          "location": "Pune, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5978011426?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fingerprint",
-        "score": null,
-        "kept": {
-          "id": "adzuna:5978010865",
-          "title": "Young Apprentice - C00 - MUMBAI",
-          "company": "Citigroup",
-          "location": "Mumbai, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5978010865?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5978010825",
-          "title": "Young Apprentice - C00 - MUMBAI",
-          "company": "Citigroup",
-          "location": "Mumbai, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5978010825?utm_medium=api&utm_source=167425b9"
-        }
-      },
-      {
-        "rule": "fuzzy",
-        "score": 99.00990099009901,
-        "kept": {
-          "id": "adzuna:5979047462",
-          "title": "Marketing & Business Development Intern \u2013 BoostraAI - WI",
-          "company": "Kapstag Workforce Solutions Private Limited",
-          "location": "Navi Mumbai, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5979047462?utm_medium=api&utm_source=167425b9"
-        },
-        "dropped": {
-          "id": "adzuna:5979047465",
-          "title": "Marketing & Business Development Intern \u2013 BoostraAI - WI2",
-          "company": "Kapstag Workforce Solutions Private Limited",
-          "location": "Thane, Maharashtra, India",
-          "url": "https://www.adzuna.in/details/5979047465?utm_medium=api&utm_source=167425b9"
+          "company": "Sabre",
+          "location": "India",
+          "url": "https://www.adzuna.in/details/5979865834?utm_medium=api&utm_source=167425b9"
         }
       },
       {
@@ -308,8 +290,8 @@
     "from_cache": 0,
     "newly_tagged": 0,
     "fallback": 0,
-    "untagged": 457,
-    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChRFLQjL4kRzZkXgHrDZr'}",
+    "untagged": 470,
+    "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChT9y6aWqUvM7Xzn7nKYg'}",
     "usage": {
       "requests": 0,
       "input_tokens": 0,
@@ -322,11 +304,11 @@
     "role_not_other": 0,
     "city_not_other": 0,
     "total_tagged": 0,
-    "total": 457
+    "total": 470
   },
   "out_of_scope": {
     "hidden": 0,
     "examples": []
   },
-  "finished_at": "2026-11-26T08:46:35+00:00"
+  "finished_at": "2026-11-27T08:57:23+00:00"
 }
